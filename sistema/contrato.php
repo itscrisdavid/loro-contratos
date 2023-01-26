@@ -77,10 +77,8 @@ if ($resultado) {
                 </div><br>
                 <div style='text-align: end;'>
                     <p align="center">
-                        <b>Fecha Efectiva:</b> <?php echo $fechaActual ?>
-                    </p>
-                    <p align="center">
-                        <?php print_r('Contrato N°' . strtoupper($id)); ?>
+                        <b>Fecha Efectiva:</b> <?php echo $fechaActual ?><br>
+                        <?php print_r('Contrato N° ' . strtoupper($id)); ?>
                     </p>
                 </div><br>
                 <?php if($fechaActual <'2022-07-07 00:00:0') { ?>
