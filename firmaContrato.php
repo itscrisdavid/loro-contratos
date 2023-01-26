@@ -46,9 +46,9 @@ if ($resultado) {
 
     <head>
         <meta charset="utf-8">
-        <title>Contrato - <?php echo $nombreArtistico ?></title>
+        <title>Acuerdo Administración - <?php echo $nombreArtistico ?></title>
         <meta name="description" content="Acuerdo Administración - <?php echo $nombreArtistico ?>">
-        <link rel="icon" href="https://loromusical.co/images/logoLoroMusical.png">
+        <link rel="icon" href="https://loromusical.co/images/icono.png">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
         <meta name="apple-mobile-web-app-capable" content="yes">
