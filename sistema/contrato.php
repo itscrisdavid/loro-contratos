@@ -39,7 +39,7 @@ if ($resultado) {
         $firmaRepresentante  = $resultado[0]['firma_usuario'];
         $firmaArtista  = $resultado[0]['firma'];
         $email  = $resultado[0]['email'];
-        print_r('Contrato N°' . strtoupper($id));
+        // print_r('Contrato N°' . strtoupper($id));
     }
 ?>
 
