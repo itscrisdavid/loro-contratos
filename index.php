@@ -15,7 +15,7 @@ if (!empty($_SESSION['active'])) {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Loro Musical</title>
-  <link rel="icon" href="../images/icono.png">
+  <link rel="icon" href="https://loromusical.co/images/icono.png">
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
@@ -31,7 +31,7 @@ if (!empty($_SESSION['active'])) {
 <body class="hold-transition login-page bg-dark">
   <div class="login-box">
     <div class="login-logo">
-      <img src="../images/logoLoroMusical.png" alt="" style="width:100px">
+      <img src="https://loromusical.co/images/logoLoroMusical.png" alt="" style="width:100px">
     </div>
     <!-- /.login-logo -->
     <div class="card">
