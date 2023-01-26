@@ -70,37 +70,31 @@ if ($resultado) {
 
                 <div style=' text-align: center;' class='mt-5'>
                     <h1>ACUERDO DE ADMINISTRACIÓN</h1>
-                    <h1>DE DERECHOS FONOGRÁFICOS</h1>
-                </div><br>
+                    <h1>DE DERECHOS FONOGRÁFICOS</h1><br>
+                </div>
                 <div style='text-align: center;'>
                     <p>
                         <!-- <b>Fecha Actual:</b> <?php echo $fechaActual ?><br> -->
                         <?php print_r('<b>Contrato N°:</b> ' . strtoupper($id)); ?>
-                    </p>
-                </div><br>
+                    </p><br>
+                </div>
                 <p>
-                    El siguiente acuerdo de administración de derechos fonográficos (el <b>ACUERDO</b>), se produce por y entre <b><?php echo $nombreCompleto ?></b> que actúa artísticamente como <b><?php echo $nombreArtistico ?></b> (el <b>LICENCIANTE</b>), identificado con <b><?php echo $tipoDcto ?></b> número <b><?php echo $nroDcto ?></b>; y <b>LORO MUSICAL S.A.S</b> (<b>LORO MUSICAL</b>), registrado en la Cámara de Comercio de Medellín para Antioquia (Colombia) e identificado con <b>NIT</b> <b>901506267-0</b>.
+                    El siguiente acuerdo de administración de derechos fonográficos (el <b>ACUERDO</b>), se produce por y entre <b><?php echo $nombreCompleto ?></b> que actúa artísticamente como <b><?php echo $nombreArtistico ?></b> (el <b>LICENCIANTE</b>), identificado con <b><?php echo $tipoDcto ?></b> número <b><?php echo $nroDcto ?></b>; y <b>LORO MUSICAL S.A.S</b> (<b>LORO MUSICAL</b>), registrado en la Cámara de Comercio de Medellín para Antioquia (Colombia) e identificado con <b>NIT 901506267-0</b>.
                 </p>
                 <p>
-                    <p><b>Usted entiende que al firmar electrónicamente el acuerdo y/o al utilizar los servicios de administración de fonogramas ofrecidos por LORO MUSICAL, usted se obliga a cumplir los términos aquí detallados. Si usted no acepta este acuerdo en su totalidad, favor abstenerse de aceptar y/o firmar electrónicamente este acuerdo y no utilice los servicios de administración de fonogramas de LORO MUSICAL. La “Fecha Efectiva” del acuerdo será establecida al momento de la firma electrónica de este contrato.</b></p>
+                    <b>Usted entiende que al firmar electrónicamente el acuerdo y/o al utilizar los servicios de administración de fonogramas ofrecidos por LORO MUSICAL, usted se obliga a cumplir los términos aquí detallados. Si usted no acepta este acuerdo en su totalidad, favor abstenerse de aceptar y/o firmar electrónicamente este acuerdo y no utilice los servicios de administración de fonogramas de LORO MUSICAL. La “Fecha Efectiva” del acuerdo será establecida al momento de la firma electrónica de este contrato.</b>
                 </p>
                 <p>
-                    Se procede a realizar el contrato de distribución musical el cual consta de las siguientes
-                    cláusulas y comenzará a regir a partir de la fecha que encabeza este documento:
+                    Este acuerdo se regirá por las siguientes cláusulas, términos y consideraciones:
                 </p>
 
                 <div>
-                    <h3 style='text-align: center;'>
+                    <h6 style='text-align: center;'>
                         CLÁUSULAS
-                    </h3>
+                    </h6><br>
                 </div>
                 <p>
-                    <b>PRIMERA: OBJETO Y TERRITORIO:</b> El <b>ARTISTA</b> confiere a <b>LORO MUSICAL</b> autorización
-                    exclusiva para utilizar los fonogramas y videogramas del cual es su legítimo titular, con el
-                    objeto de ejercer el derecho de puesta a disposición del público, y en general para el uso y
-                    explotación de los fonogramas y videogramas tanto por los medios digitales hoy conocidos o
-                    por conocerse como los provenientes de sociedades de gestión colectiva en EL MUNDO
-                    durante la duración del presente contrato.
+                    <b>PRIMERA: LICENCIA: LORO MUSICAL</b> tendrá los derechos exclusivos de distribución digital de los fonogramas que el <b>LICENCIANTE</b> envíe para su administración desde la Fecha Efectiva hasta la duración de este <b>ACUERDO</b>.
                 </p>
                 <p>
                     <b>SEGUNDA: NOMBRES, IMÁGENES Y BIOGRAFÍAS DEL CATÁLOGO LICENCIADO:</b> Igualmente,
