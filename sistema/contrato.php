@@ -39,7 +39,7 @@ if ($resultado) {
         $firmaRepresentante  = $resultado[0]['firma_usuario'];
         $firmaArtista  = $resultado[0]['firma'];
         $email  = $resultado[0]['email'];
-        // print_r('Contrato N°' . strtoupper($id));
+        print_r('Contrato N°' . strtoupper($id));
     }
     ?>
 
@@ -49,8 +49,8 @@ if ($resultado) {
         <head>
             <meta charset="utf-8">
             <?php if ($firmado) : ?>
-                <title>Acuerdo Administración - <?php echo $nombreArtistico ?></title>
-                <meta name="description" content="Contrato de <?php echo $nombreCompleto ?>">
+            <title>Acuerdo Administración - <?php echo $nombreArtistico ?></title>
+            <meta name="description" content="Contrato de <?php echo $nombreCompleto ?>">
             <?php endif ?>
             <link rel="icon" href="https://loromusical.co/images/icono.png">
             <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
