@@ -86,8 +86,7 @@ if ($resultado) {
                 </p>
                 <p>
                     Este acuerdo se regirá por las siguientes cláusulas, términos y consideraciones:
-                </p>
-
+                </p><br>
                 <div>
                     <h3 style='text-align: center;'>
                         CLÁUSULAS
