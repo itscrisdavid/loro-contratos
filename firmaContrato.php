@@ -82,11 +82,7 @@ if ($resultado) {
                     El siguiente acuerdo de administración de derechos fonográficos (el <b>ACUERDO</b>), se produce por y entre <b><?php echo $nombreCompleto ?></b> que actúa artísticamente como <b><?php echo $nombreArtistico ?></b> (el <b>LICENCIANTE</b>), identificado con <b><?php echo $tipoDcto ?></b> número <b><?php echo $nroDcto ?></b>; y <b>LORO MUSICAL S.A.S</b> (<b>LORO MUSICAL</b>), registrado en la Cámara de Comercio de Medellín para Antioquia (Colombia) e identificado con <b>NIT</b> <b>901506267-0</b>.
                 </p>
                 <p>
-
-                    Y por otra parte, <?php echo $nombreCompleto ?> identificado con <?php echo $tipoDcto ?> número
-                    <?php echo $nroDcto ?> expedida en <?php echo $expedicion ?>. Con domicilio <?php echo $domicilio ?> el cual
-                    actúa con el nombre artístico de <?php echo $nombreArtistico ?> y que de ahora en adelante se conocerá como
-                    el <b>ARTISTA</b>.
+                    <p><b>Usted entiende que al firmar electrónicamente el acuerdo y/o al utilizar los servicios de administración de fonogramas ofrecidos por LORO MUSICAL, usted se obliga a cumplir los términos aquí detallados. Si usted no acepta este acuerdo en su totalidad, favor abstenerse de aceptar y/o firmar electrónicamente este acuerdo y no utilice los servicios de administración de fonogramas de LORO MUSICAL. La “Fecha Efectiva” del acuerdo será establecida al momento de la firma electrónica de este contrato.</b></p>
                 </p>
                 <p>
                     Se procede a realizar el contrato de distribución musical el cual consta de las siguientes
