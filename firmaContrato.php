@@ -96,64 +96,17 @@ if ($resultado) {
                     <b>PRIMERA: LICENCIA: LORO MUSICAL</b> tendrá los derechos exclusivos de distribución digital de los fonogramas que el <b>LICENCIANTE</b> envíe para su administración desde la Fecha Efectiva hasta la duración de este <b>ACUERDO</b>.
                 </p>
                 <p>
-                    <b>SEGUNDA: NOMBRES, IMÁGENES Y BIOGRAFÍAS DEL CATÁLOGO LICENCIADO:</b> Igualmente,
-                    por razón y efecto del presente contrato, <b>LORO MUSICAL</b> queda ampliamente facultado para
-                    utilizar los nombres, las imágenes y las biografías del <b>ARTISTA</b> del catálogo licenciado y por
-                    consiguiente queda autorizado para dar publicidad a dichos nombres, imágenes y biografías
-                    por cualquier medio publicitario digital.
+                    <b>SEGUNDA: INGRESOS:</b> En contraprestación a los derechos concedidos a <b>LORO MUSICAL</b> en el <b>ACUERDO</b>, <b>LORO MUSICAL</b> pagará al <b>LICENCIANTE</b>, condicionado al pleno cumplimiento de todas la cláusulas, el setenta por ciento (70%) de los Ingresos Netos por distribución digital de los fonogramas, Content ID, administración del Canal de YouTube y administración de Derechos Conexos.
+                </p>
+                <p>
+                    <b>TERCERA: DURACIÓN:</b> El tiempo de vigencia del <b>ACUERDO</b> comenzará a partir de la Fecha Efectiva y continuará por un periodo inicial de 1 año o hasta que se llegue a tomar alguna de las causales de terminación establecidas en la cláusula decimoprimera de este <b>ACUERDO</b>. Una vez expirado el periodo inicial, se renovará automáticamente por períodos adicionales, sucesivos de un año, hasta que se dé por terminado por alguna de las partes con al menos 30 días de anticipación de manera escrita.
+                </p>
+                <p>
+                    <b>CUARTA: TERRITORIO:</b> Este <b>ACUERDO</b> regirá en todo el universo.
                 </p>
 
-                <p>
-                    <b>TERCERA: OBLIGACIONES DE LORO MUSICAL</b>: Son obligaciones de <b>LORO MUSICAL</b> asesorar
-                    en posicionamiento, publicidad y fortalecimiento todo lo que corresponda al desarrollo de
-                    contenidos digitales. El utilizar las plataformas digitales y físicas conocidas y por conocerse
-                    para administrar, recaudar y distribuir el catálogo objeto del presente contrato a favor del
-                    <b>ARTISTA</b>. El realizar los pagos correspondientes a las regalías obtenidas por la explotación
-                    del catálogo en las fechas establecidas en este contrato.
-                </p>
-                <p>
-                    <b>CUARTA: OBLIGACIONES DEL ARTISTA</b>: El <b>ARTISTA</b> declara que es titular de los derechos del
-                    catálogo objeto del presente contrato y no tiene ningún impedimento legal o contractual
-                    para disponer del mismo y entregar las producciones fonográficas y videográficas sin ningún
-                    impedimento de uso y utilización, teniendo en cuenta que ante cualquier reclamación que
-                    pudiese presentar por un tercero, responderá por los efectos legales y jurídicos que llegasen
-                    a suceder.
-                </p>
-                <p>
-                    <b> QUINTA: SUMINISTROS DE INFORMACIÓN:</b> El <b>ARTISTA</b> se compromete a suministrar toda la
-                    información necesaria y respectiva del catálogo objeto del presente contrato, para llevar a
-                    cabo una correcta administración del mismo por parte de <b>LORO MUSICAL</b> en los medios
-                    digitales. En caso de que el <b>ARTISTA</b> no suministre la información dentro de los 5 días
-                    posteriores a la solicitud, <b>LORO MUSICAL</b> no podrá garantizar los tiempos de distribución ni
-                    podrá ser acusado de incumplimiento. <b>LORO MUSICAL</b> se compromete a enviar informes de ventas y
-                    reproducciones para garantizar la transparencia en la recolección de regalías y, también, informes
-                    demográficos y geográficos de manera trimestral en los meses de enero, abril, julio y octubre.
-                </p>
 
-                <p>
 
-                    <b>SEXTA: AUTORIZACIÓN DE RECAUDO:</b> El <b>ARTISTA</b> autoriza a <b>LORO MUSICAL</b> para que
-                    recaude en cualquier medio digital conocido o por conocerse los beneficios económicos
-                    generados por el uso y explotación digital del catálogo licenciado, teniendo en cuenta que
-                    dicho recaudo no tiene relación alguna con el recaudo realizado por las sociedades de
-                    gestión colectiva a nivel nacional o mundial a las que el <b>ARTISTA</b> pudiese ser asociado.
-                </p>
-
-                <p>
-                    <b>SÉPTIMA: DURACIÓN:</b> El presente contrato de licencia tendrá una duración inicial de 1 año a
-                    partir del día de su firma y será prorrateado automáticamente por períodos iguales si
-                    ninguna de las dos partes manifestaron su intención de no renovación con, al menos, 3
-                    meses de anticipación a su vencimiento. PARÁGRAFO: En el momento que el presente
-                    contrato se dé por terminado, <b>LORO MUSICAL</b> no está en la obligación de suministrar a el
-                    <b>ARTISTA</b> información, la base de datos o cualquier otro dato que fuera generado para la
-                    administración del catálogo.
-                </p>
-
-                <p>
-                    <b>OCTAVA: REGALÍAS:</b> El <b>ARTISTA</b> recibirá la remuneración del 70% sobre las regalías netas
-                    generadas en cada período. <b>LORO MUSICAL</b> se compromete a emitir informes a favor del
-                    <b>ARTISTA</b> previo al pago de las regalías con información sobre los ingresos obtenidos.
-                </p>
 
                 <p>
                     <b> NOVENA: PAGOS:</b> <b>LORO MUSICAL</b> pagará las regalías en los primeros 15 días hábiles de los
