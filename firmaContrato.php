@@ -134,10 +134,10 @@ if ($resultado) {
                     </li>
                 </ul><br>
                 <div>
-                    <h3 style='text-align: center;'>
+                    <h4 style='text-align: center;'>
                         ANEXO<br>
                         DEFINIFICIONES
-                    </h3><br>
+                    </h4><br>
                 </div>
                 <ul>
                     <li>
