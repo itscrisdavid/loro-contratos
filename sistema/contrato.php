@@ -68,7 +68,7 @@ if ($resultado) {
         if ($firmado) { ?>
             <div class="container" style='text-align:justify'>
                 <div class='text-center'>
-                    <img src='https://loromusical.co/images/logoLoroMusical.png' alt='' style='width:150px'>
+                    <img src='https://loromusical.co/images/logoLoroMusical.png' alt='' style='width:125px'>
                 </div>
 
                 <div style=' text-align: center;' class='mt-5'>

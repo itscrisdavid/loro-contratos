@@ -64,7 +64,7 @@ if ($resultado) {
         if (!$firmado) { ?>
             <div class="container" style='text-align:justify'>
                 <div class='text-center'>
-                    <img src='https://loromusical.co/images/logoLoroMusical.png' alt='' style='width:120px'>
+                    <img src='https://loromusical.co/images/logoLoroMusical.png' alt='' style='width:125px'>
                 </div>
 
                 <div style=' text-align: center;' class='mt-5'>
@@ -74,7 +74,7 @@ if ($resultado) {
                 <div style='text-align: center;'>
                     <p>
                         <!-- <b>Fecha Efectiva:</b> <?php echo $fechaActual ?><br> -->
-                        <b>Fecha Efectiva:</b> Se asignará al momento de la firma
+                        <b>Fecha Efectiva:</b> Se asignará al firmar
                         <!-- <?php print_r('<b>Contrato N°:</b> ' . strtoupper($id)); ?> -->
                     </p><br>
                 </div>
@@ -133,78 +133,14 @@ if ($resultado) {
                         A menos que se especifique expresamente lo contrario, la anterior licencia es exclusiva en todo el <b>TERRITORIO</b> durante el tiempo estipulado en la cláusula tercera de este <b>ACUERDO</b>. De manera que el <b>LICENCIANTE</b> no otorgará a terceros los derechos concebidos a <b>LORO MUSICAL</b> en el <b>ACUERDO</b> en el <b>TERRITORIO</b> durante la duración de este <b>ACUERDO</b>. <b>El LICENCIANTE</b> reconoce y acuerda que <b>LORO MUSICAL</b> podrá utilizar a terceros para ejercer los derechos que le han sido otorgados en este <b>ACUERDO</b>.
                     </li>
                 </ul>
-
-
-                <p>
-                    <b> NOVENA: PAGOS:</b> <b>LORO MUSICAL</b> pagará las regalías en los primeros 15 días hábiles de los
-                    meses de enero, abril, julio y octubre haciendo corte trimestral de la siguiente manera: Los
-                    pagos realizados en enero corresponderá a los ingresos obtenidos durante el 1 de octubre al
-                    31 de diciembre. Los pagos realizados en abril corresponderá a los ingresos obtenidos
-                    durante el 1 de enero al 31 de marzo. Los pagos realizados en julio corresponderá a los
-                    ingresos obtenidos durante el 1 de abril al 30 de junio. Y los pagos realizados en octubre
-                    corresponderá a los ingresos obtenidos durante el 1 de julio al 30 de septiembre.
-                </p>
-                <p>
-                    El pago de las regalías se realizará a través de transferencia bancaria siempre y cuando los
-                    ingresos para el <b>ARTISTA</b> superen el valor mínimo de $25.000 M.L.C (veinticinco mil pesos),
-                    en caso de no cumplir el mínimo, el pago se acumulará y se realizará en el siguiente ciclo.
-                <div><b>Banco:</b> <?php echo $banco ?></div>
-                <div><b>Número cuenta:</b> <?php echo $numeroCuenta ?></div>
-                <div><b>Tipo de cuenta:</b> <?php echo $tipoCuenta ?></div>
-
-                </p>
-
-                <p>
-                    <b>DÉCIMA: INFORMACIÓN CONFIDENCIAL:</b> El <b>ARTISTA</b> se obliga a no divulgar a terceras
-                    partes, la “Información Confidencial”, información sobre el contrato, períodos de pago o
-                    cualquier otro dato que no sea autorizado por parte de <b>LORO MUSICAL</b>. Además, se
-                    compromete a darle a dicha información el mismo tratamiento que le darían a la
-                    información confidencial de su propiedad. PARÁGRAFO: Para efectos de la presente acta,
-                    “Información Confidencial” comprende toda la información divulgada por <b>LORO MUSICAL</b> ya
-                    sea en forma oral, visual, escrita, grabada en medios magnéticos o en cualquier otra forma
-                    tangible y que se encuentre claramente marcada como tal al ser entregada a la parte
-                    receptora.
-                </p>
-
-
-                <p>
-                    <b>DÉCIMA PRIMERA: CATÁLOGO Y EXCLUSIVIDAD:</b> El <b>ARTISTA</b>  concede a LORO MUSICAL 
-                    la exclusividad únicamente de las obras musicales y audiovisuales que envíe para su distribución durante la vigencia de este contrato..
-                </p>
-                <p>
-                    <b>DÉCIMA SEGUNDA: OTROS CONTRATOS:</b> Durante la vigencia de este contrato podrá
-                    celebrarse otros acuerdos entre las Partes para servicios adicionales, sin que,
-                    necesariamente, modifiquen este contrato de distribución ni la duración del mismo.
-                </p>
-                <p>
-                    <b>DÉCIMA TERCERA: NOTIFICACIONES:</b> El <b>ARTISTA</b> establece como lugar de notificaciones el
-                    correo electrónico <?php echo $email  ?> y autoriza, con la firma de este contrato, enviarle
-                    información relacionada con el estado de sus servicios. Por otra parte, <b>LORO MUSICAL</b>
-                    habilita el correo electrónico info@loromusical.co para brindar soporte a cualquier duda
-                    que pueda surgir durante la vigencia de este contrato.
-                </p>
-
-                <p>
-                    <b>DÉCIMA CUARTA: JURISDICCIÓN:</b> En caso de controversia, diferencia, conflicto o
-                    reclamación en cuanto al Contrato, o en relación a o derivado de la interpretación o
-                    ejecución del mismo, se acuerda que se someterán a la jurisdicción de los Juzgados y
-                    Tribunales competentes conforme al derecho colombiano.
-                </p>
-
-                <p>
-                    Para constancia, se emiten dos copias iguales, una para cada parte, y se firma en 
-                    representación propia y entendiendo la información consignada en este contrato 
-                    a la fecha establecida en el encabezado de este contrato.
-                </p>
                 <div class='row mt-5 text-center'>
 
                     <div class='col-12 '>
                         <div class=''><img src="<?php echo $firma ?>" alt="Firma Representante" width="300px"></div>
-                        Maria Garces Castaño <br>
-                        C.C. 43.261.125 de Medellín <br>
-                        Representante <b>LORO MUSICAL</b>
+                        María Garcés Castaño<br>
+                        C.C. 43.261.125 de Medellín<br>
+                        Representante Legal de <b>LORO MUSICAL</b>
                     </div>
-
                 </div>
             </div>
             <div class="text-center">
@@ -227,7 +163,7 @@ if ($resultado) {
                 </div></center>
 
                 <div id="enviar" class="mt-5 mb-5">
-                    <button type="button" class="btn btn-info" data-action="guardar-firma"> Enviar Contrato</button>
+                    <button type="button" class="btn btn-info" data-action="guardar-firma">Enviar Contrato</button>
                 </div>
                 <div id="mostrarSvg"></div>
                 <br><br><br><br>
