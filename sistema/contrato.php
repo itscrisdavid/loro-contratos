@@ -44,15 +44,15 @@ if ($resultado) {
 ?>
 
     <!doctype html>
-    <html lang="en">
+    <html lang="es">
 
     <head>
         <meta charset="utf-8">
         <?php if ($firmado) : ?>
-            <title>Contrato <?php echo $nombreArtistico ?></title>
+            <title>Contrato - <?php echo $nombreArtistico ?></title>
             <meta name="description" content="Contrato de <?php echo $nombreCompleto ?>">
         <?php endif ?>
-        <link rel="icon" href="../../images/icono.png">
+        <link rel="icon" href="https://loromusical.co/images/logoLoroMusical.png">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
         <meta name="apple-mobile-web-app-capable" content="yes">
@@ -72,7 +72,8 @@ if ($resultado) {
                 </div>
 
                 <div style=' text-align: center;' class='mt-5'>
-                    <h1>CONTRATO DE DISTRIBUCIÓN MUSICAL</h1>
+                    <h1>ACUERDO DE ADMINISTRACIÓN</h1>
+                    <h1>DE DERECHOS FONOGRÁFICOS</h1>
                 </div>
                 <div style='text-align: end;'>
                     <p>
