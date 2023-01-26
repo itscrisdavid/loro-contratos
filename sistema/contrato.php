@@ -72,8 +72,8 @@ if ($resultado) {
                     </div>
 
                     <div style=' text-align: center;' class='mt-5'>
-                        <h1>ACUERDO DE ADMINISTRACIÓN</h1>
-                        <h1>DE DERECHOS FONOGRÁFICOS</h1>
+                        <h2>ACUERDO DE ADMINISTRACIÓN</h2>
+                        <h2>DE DERECHOS FONOGRÁFICOS</h2>
                     </div><br>
                     <div style='text-align: center;'>
                         <p>
@@ -111,7 +111,7 @@ if ($resultado) {
                                 <b>CUARTA: OBLIGACIONES DEL ARTISTA</b>: El <b>ARTISTA</b> declara que es titular de los derechos del catálogo objeto del presente contrato y no tiene ningún impedimento legal o contractual para disponer del mismo y entregar las producciones fonográficas y videográficas sin ningún impedimento de uso y utilización, teniendo en cuenta que ante cualquier reclamación que pudiese presentar por un tercero, responderá por los efectos legales y jurídicos que llegasen a suceder.
                             </p>
                             <p>
-                                <b> QUINTA: SUMINISTROS DE INFORMACIÓN:</b> El <b>ARTISTA</b> se compromete a suministrar toda la información necesaria y respectiva del catálogo objeto del presente contrato, para llevar a cabo una correcta administración del mismo por parte de <b>LORO MUSICAL</b> en los medios digitales. En caso de que el <b>ARTISTA</b> no suministre la información dentro de los 5 días posteriores a la solicitud, <b>LORO MUSICAL</b> no podrá garantizar los tiempos de distribución ni podrá ser acusado de incumplimiento.
+                                <b> QUINTA: SUMINISTROS DE INFORMACIÓN:</b> El <b>ARTISTA</b> se compromete a suministrar toda la información necesaria y respectiva del catálogo objeto del presente contrato, para llevar a cabo una correcta administración del mismo por parte de <b>LORO MUSICAL</b> en los medios digitales. En caso de que el <b>ARTISTA</b> no suministre la información dentro de los 5 días posteriores a la solicitud, <b>LORO MUSICAL</b> no podrá garantizar los tiempos de distribución ni podrá ser acusado de incumplimiento. <b>LORO MUSICAL</b> se compromete a enviar informes de ventas y reproducciones para garantizar la transparencia en la recolección de regalías y, también, informes demográficos y geográficos de manera trimestral en los meses de enero, abril, julio y octubre.
                             </p>
 
                             <p>
@@ -119,7 +119,7 @@ if ($resultado) {
                             </p>
 
                             <p>
-                                <b>SÉPTIMA: DURACIÓN:</b>El presente contrato de licencia tendrá una duración inicial de 1 año a partir del día de su firma y será prorrateado automáticamente por períodos iguales si ninguna de las dos partes manifestaron su intención de no renovación con, al menos, 3 meses de anticipación a su vencimiento. PARÁGRAFO: En el momento que el presente contrato se dé por terminado, <b>LORO MUSICAL</b> no está en la obligación de suministrar a el <b>ARTISTA</b> información, la base de datos o cualquier otro dato que fuera generado para la administración del catálogo.
+                                <b>SÉPTIMA: DURACIÓN:</b> El presente contrato de licencia tendrá una duración inicial de 1 año a partir del día de su firma y será prorrateado automáticamente por períodos iguales si ninguna de las dos partes manifestaron su intención de no renovación con, al menos, 3 meses de anticipación a su vencimiento. <b>PARÁGRAFO:</b> En el momento que el presente contrato se dé por terminado, <b>LORO MUSICAL</b> no está en la obligación de suministrar a el <b>ARTISTA</b> información, la base de datos o cualquier otro dato que fuera generado para la administración del catálogo.
                             </p>
 
                             <p>
@@ -127,7 +127,7 @@ if ($resultado) {
                             </p>
 
                             <p>
-                                <b>NOVENA: PAGOS: LORO MUSICAL</b> pagará las regalías en los primeros 15 días hábiles de los meses de enero, abril, julio y octubre haciendo corte trimestral de la siguiente manera: Los pagos realizados en enero corresponderá a los ingresos obtenidos durante el 1 de octubre al 31 de diciembre. Los pagos realizados en abril corresponderá a los ingresos obtenidos durante el 1 de enero al 31 de marzo. Los pagos realizados en julio corresponderá a los ingresos obtenidos durante el 1 de abril al 30 de junio. Y los pagos realizados en octubre corresponderá a los ingresos obtenidos durante el 1 de julio al 30 de septiembre.
+                                <b>NOVENA: PAGOS: LORO MUSICAL</b> pagará las regalías en los primeros 45 días hábiles de los meses de enero, abril, julio y octubre haciendo corte trimestral de la siguiente manera: Los pagos realizados en enero corresponderá a los ingresos obtenidos durante el 1 de octubre al 31 de diciembre. Los pagos realizados en abril corresponderá a los ingresos obtenidos durante el 1 de enero al 31 de marzo. Los pagos realizados en julio corresponderá a los ingresos obtenidos durante el 1 de abril al 30 de junio. Y los pagos realizados en octubre corresponderá a los ingresos obtenidos durante el 1 de julio al 30 de septiembre.
                             </p>
                             <p>
                                 El pago de las regalías se realizará a través de transferencia bancaria siempre y cuando los ingresos para el <b>ARTISTA</b> superen el valor mínimo de $25.000 M.L.C (veinticinco mil pesos), en caso de no cumplir el mínimo, el pago se acumulará y se realizará en el siguiente ciclo.
@@ -139,10 +139,10 @@ if ($resultado) {
                             </p>
 
                             <p>
-                                <b>DÉCIMA: INFORMACIÓN CONFIDENCIAL:</b> El <b>ARTISTA</b> se obliga a no divulgar a terceras partes, la “Información Confidencial”, información sobre el contrato, períodos de pago o cualquier otro dato que no sea autorizado por parte de <b>LORO MUSICAL</b>. Además, se compromete a darle a dicha información el mismo tratamiento que le darían a la información confidencial de su propiedad. PARÁGRAFO: Para efectos de la presente acta, “Información Confidencial” comprende toda la información divulgada por <b>LORO MUSICAL</b> ya sea en forma oral, visual, escrita, grabada en medios magnéticos o en cualquier otra forma tangible y que se encuentre claramente marcada como tal al ser entregada a la parte receptora.
+                                <b>DÉCIMA: INFORMACIÓN CONFIDENCIAL:</b> El <b>ARTISTA</b> se obliga a no divulgar a terceras partes, la “Información Confidencial”, información sobre el contrato, períodos de pago o cualquier otro dato que no sea autorizado por parte de <b>LORO MUSICAL</b>. Además, se compromete a darle a dicha información el mismo tratamiento que le darían a la información confidencial de su propiedad. <b>PARÁGRAFO:</b> Para efectos de la presente acta, “Información Confidencial” comprende toda la información divulgada por <b>LORO MUSICAL</b> ya sea en forma oral, visual, escrita, grabada en medios magnéticos o en cualquier otra forma tangible y que se encuentre claramente marcada como tal al ser entregada a la parte receptora.
                             </p>
                             <p>
-                                <b>DÉCIMA PRIMERA: CATÁLOGO Y EXCLUSIVIDAD:</b> El <b>ARTISTA</b> concede a <b>LORO MUSICAL</b> la exclusividad de la distribución musical de todo su catálogo musical y audiovisual durante la vigencia de este contrato.
+                                <b>DÉCIMA PRIMERA: CATÁLOGO Y EXCLUSIVIDAD:</b> El <b>ARTISTA</b> concede a <b>LORO MUSICAL</b> la exclusividad únicamente de las obras musicales y audiovisuales que envíe para su distribución durante la vigencia de este contrato.
                             </p>
                             <p>
                                 <b>DÉCIMA SEGUNDA: INFORMACIÓN FINAL: LORO MUSICAL</b> se compromete a entregar los códigos UPC y IRSC generados para los lanzamientos realizados durante la vigencia de este contrato al <b>ARTISTA</b> en el momento que el contrato finalice. Estos códigos serán entregados cuando la música ya no se encuentre distribuida por <b>LORO MUSICAL</b>.
@@ -152,7 +152,7 @@ if ($resultado) {
                                 necesariamente, modifiquen este contrato de distribución ni la duración del mismo.
                             </p>
                             <p>
-                                <b>DÉCIMA CUARTA: NOTIFICACIONES:</b> El <b>ARTISTA</b> establece como lugar de notificaciones el correo electrónico <?php echo $email  ?> y autoriza, con la firma de este contrato, enviarle información relacionada con el estado de sus servicios. Por otra parte, <b>LORO MUSICAL</b> habilita el correo electrónico info@loromusical.co para brindar soporte a cualquier duda que pueda surgir durante la vigencia de este contrato.
+                                <b>DÉCIMA CUARTA: NOTIFICACIONES:</b> El <b>ARTISTA</b> establece como lugar de notificaciones el correo electrónico “<?php echo $email  ?>” y autoriza, con la firma de este contrato, enviarle información relacionada con el estado de sus servicios. Por otra parte, <b>LORO MUSICAL</b> habilita el correo electrónico “info@loromusical.co” para brindar soporte a cualquier duda que pueda surgir durante la vigencia de este contrato.
                             </p>
                             <p>
                                 <b>DÉCIMA QUINTA: JURISDICCIÓN:</b> En caso de controversia, diferencia, conflicto o
@@ -161,7 +161,7 @@ if ($resultado) {
                                 Tribunales competentes conforme al derecho colombiano.
                             </p>
                             <p>
-                                Para constancia, se emiten dos copias iguales, una para cada parte, y se firma en representación propia y entendiendo la información consignada en este contrato a la fecha establecida en el encabezado de este contrato en la ciudad de Medellín, Colombia.
+                                Para constancia, se emiten dos copias iguales, una para cada parte, y se firma en representación propia y entendiendo la información consignada en este contrato a la fecha establecida en el encabezado de este contrato.
                             </p>
                         </div>
                     <?php } else{ ?>

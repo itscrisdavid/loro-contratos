@@ -34,7 +34,7 @@ $("#formLogin").submit(function (e) {
           Swal.fire({
             position: "center",
             html: '<img src="https://loromusical.co/images/logoLoroMusical.png" style="width:100px"><br>',
-            title: "Usuario y/o contraseña incorrecta",
+            title: "El usuario o la  contraseña son incorrectas.",
             background: " #000000cd",
             showConfirmButton: false,
             timer: 3000,
