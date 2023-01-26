@@ -76,8 +76,8 @@ if ($resultado) {
                     <h1>DE DERECHOS FONOGRÁFICOS</h1>
                 </div>
                 <div style='text-align: end;'>
-                    <p>
-                        <?php echo $fechaActual ?>
+                    <p align="center">
+                        Fecha Efectiva: <?php echo $fechaActual ?>
                     </p>
                 </div>
                 <?php if($fechaActual <'2022-07-07 00:00:0') { ?>
