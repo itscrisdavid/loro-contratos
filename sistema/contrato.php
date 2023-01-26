@@ -238,7 +238,7 @@ if ($resultado) {
                 <?php } else{ ?>
                     <div>
                         <p>
-                            Entre los suscritos, de una parte <b>LORO MUSICAL S.A.S</b> , con NIT <b>901.506.267-0</b> , con domicilio
+                            Esntre los suscritos, de una parte <b>LORO MUSICAL S.A.S</b> , con NIT <b>901.506.267-0</b> , con domicilio
                             en la ciudad de Medellín- Antioquia, representada legalmente por <b>MARIA
                                 GARCES CASTAÑO</b>, identificada con cédula de ciudadanía número 43.261.125 de Medellín y
                             que de ahora en adelante se conocerá como <b>LORO MUSICAL</b>.
