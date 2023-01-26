@@ -77,7 +77,7 @@ if ($resultado) {
                 </div><br>
                 <div style='text-align: end;'>
                     <p align="center">
-                        <b>Fecha Efectiva:</b> <?php echo $fechaActual ?><br>
+                        <b>Fecha Efectiva:</b> <?php echo $fechaFirma ?><br>
                         <?php print_r('<b>Contrato N°:</b> ' . strtoupper($id)); ?>
                     </p>
                 </div><br>
