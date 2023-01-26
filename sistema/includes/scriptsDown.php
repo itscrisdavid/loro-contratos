@@ -46,6 +46,3 @@
   <script src="../plugins/select2/js/select2.full.min.js"></script>
   <script src="../plugins/sweetalert2/sweetalert2.js"></script>
   <script src="js/scritps.js"></script>
-
-  
-

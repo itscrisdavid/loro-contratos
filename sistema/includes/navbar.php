@@ -34,17 +34,18 @@
         <nav class="mt-5" style="margin-top: 60px;">
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                 <li class="nav-item">
-                    <a href="registroContrato.php" class="nav-link">
+                    <a href="index.php" class="nav-link">
                         <i class="fas fa-sign-in-alt"></i>
-                        <p>Registrar Contrato</p>
+                        <p>Panel Contratos</p>
                     </a>
                 </li>
-
-
+                <li class="nav-item">
+                    <a href="registroContrato.php" class="nav-link">
+                        <i class="fas fa-sign-in-alt"></i>
+                        <p>Nuevo Contrato</p>
+                    </a>
+                </li>
             </ul>
         </nav>
-
     </div>
-
 </aside>
-

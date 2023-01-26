@@ -76,7 +76,7 @@ if ($firmado) {
       </div><br>
       <div>
         <p style='text-align: center;'>
-          <b>Fecha Efectiva:</b> @fechaActual
+          <b>Fecha Efectiva:</b> @fechaFctual
         </p>
       </div><br>
       <p>
