@@ -81,10 +81,10 @@ if ($resultado) {
                             <?php print_r('<b>Contrato N°:</b> ' . strtoupper($id)); ?>
                         </p>
                     </div><br>
-                    <?php if($fechaActual <'2022-07-07 00:00:0') { ?>
+                    <?php if($fechaActual <'2023-07-07 00:00:0') { ?>
                         <div>
                             <p>
-                                El siguiente acuerdo de administración de derechos fonográficos (el <b>ACUERDO</b>), se produce por y entre <b><?php echo $nombreCompleto ?></b> que actúa artísticamente como <b><?php echo $nombreArtistico ?></b> (el <b>LICENCIANTE</b>), identificado con <b><?php echo $tipoDcto ?></b> número <b><?php echo $nroDcto ?></b>; y <b>LORO MUSICAL S.A.S</b> (<b>LORO MUSICAL</b>), registrado en la Cámara de Comercio de Medellín para Antioquia (Colombia) e identificado con <b>NIT 901506267-0</b>.
+                                Elso siguiente acuerdo de administración de derechos fonográficos (el <b>ACUERDO</b>), se produce por y entre <b><?php echo $nombreCompleto ?></b> que actúa artísticamente como <b><?php echo $nombreArtistico ?></b> (el <b>LICENCIANTE</b>), identificado con <b><?php echo $tipoDcto ?></b> número <b><?php echo $nroDcto ?></b>; y <b>LORO MUSICAL S.A.S</b> (<b>LORO MUSICAL</b>), registrado en la Cámara de Comercio de Medellín para Antioquia (Colombia) e identificado con <b>NIT 901506267-0</b>.
                             </p>
                             <p>
                                 <b>Usted entiende que al firmar electrónicamente el acuerdo y/o al utilizar los servicios de administración de fonogramas ofrecidos por LORO MUSICAL, usted se obliga a cumplir los términos aquí detallados. Si usted no acepta este acuerdo en su totalidad, favor abstenerse de aceptar y/o firmar electrónicamente este acuerdo y no utilice los servicios de administración de fonogramas de LORO MUSICAL. La “Fecha Efectiva” del acuerdo será establecida al momento de la firma electrónica de este contrato.</b>
@@ -550,7 +550,7 @@ if ($resultado) {
                                     <div class=''><img src="<?php echo $firmaArtista ?>" alt="Firma Artista" width="300px"></div>
                                     <?php echo $nombreCompleto ?> <br>
                                     <?php echo $tipoDcto . '. ' . $nroDcto ?> <br>
-                                    EL <b>ARTISTA</b> <br>
+                                    El <b>LICENCIANTE</b> <br>
                                     Firmado el <?php echo $fechaFirma ?>
 
                                 </div>
@@ -572,8 +572,8 @@ if ($resultado) {
                         <script>
                             Swal.fire({
                                 position: "center",
-                                html: '<img src="../../images/logoLoroMusical.png" style="width:100px"><br>',
-                                title: "Este contrato no se ha firmado",
+                                html: '<img src="https://loromusical.co/images/logoLoroMusical.png" style="width:100px"><br>',
+                                title: "El contrato ya ha sido firmado.",
                                 background: " #000000cd",
                                 showConfirmButton: false,
                                 timer: 6000,
