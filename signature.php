@@ -70,11 +70,12 @@ if ($firmado) {
 
   <div class="container" style='text-align:justify'>
     <div class='text-center'>
-      <img src='../images/logoLoroMusical.png' alt='' style='width:150px'>
+      <img src='https://loromusical.co/images/logoLoroMusical.png' alt='' style='width:150px'>
     </div>
 
     <div style=' text-align: center;' class='mt-5'>
-      <h1>CONTRATO DE DISTRIBUCIÓN MUSICAL</h1>
+      <h1>ACUERDO DE ADMINISTRACIÓN</h1>
+      <h1>DE DERECHOS FONOGRÁFICOS</h1>
     </div>
     <div>
       <p style='text-align: end;'>
