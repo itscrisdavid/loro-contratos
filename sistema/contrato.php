@@ -39,20 +39,20 @@ if ($resultado) {
         $firmaRepresentante  = $resultado[0]['firma_usuario'];
         $firmaArtista  = $resultado[0]['firma'];
         $email  = $resultado[0]['email'];
-        // print_r('Contrato N°' . strtoupper($id));
+        print_r('Contrato N°' . strtoupper($id));
     }
 ?>
 
     <!doctype html>
-    <html lang="es">
+    <html lang="en">
 
     <head>
         <meta charset="utf-8">
         <?php if ($firmado) : ?>
-            <title>Contrato - <?php echo $nombreArtistico ?></title>
+            <title>Contrato <?php echo $nombreArtistico ?></title>
             <meta name="description" content="Contrato de <?php echo $nombreCompleto ?>">
         <?php endif ?>
-        <link rel="icon" href="https://loromusical.co/images/logoLoroMusical.png">
+        <link rel="icon" href="../../images/icono.png">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
         <meta name="apple-mobile-web-app-capable" content="yes">
@@ -68,23 +68,24 @@ if ($resultado) {
         if ($firmado) { ?>
             <div class="container" style='text-align:justify'>
                 <div class='text-center'>
-                    <img src='https://loromusical.co/images/logoLoroMusical.png' alt='' style='width:150px'>
+                    <img src='../../images/logoLoroMusical.png' alt='' style='width:150px'>
                 </div>
 
                 <div style=' text-align: center;' class='mt-5'>
-                    <h1>ACUERDO DE ADMINISTRACIÓN</h1>
-                    <h1>DE DERECHOS FONOGRÁFICOS</h1>
-                </div><br>
-                <div style='text-align: center;'>
+                    <h1>CONTRATO DE DISTRIBUCIÓN MUSICAL</h1>
+                </div>
+                <div style='text-align: end;'>
                     <p>
-                        <b>Fecha Efectiva:</b> <?php echo $fechaFirma ?><br>
-                        <?php print_r('<b>Contrato N°:</b> ' . strtoupper($id)); ?>
+                        <?php echo $fechaActual ?>
                     </p>
-                </div><br>
+                </div>
                 <?php if($fechaActual <'2022-07-07 00:00:0') { ?>
                     <div>
                         <p>
-                            El siguiente acuerdo de administración de derechos fonográficos (el <b>ACUERDO</b>), se produce por y entre <b><?php echo $nombreCompleto ?></b> que actúa artísticamente como <b>$stageName</b> (el <b>LICENCIANTE</b>), identificado con <b>$documentType</b> número <b>$document</b>; y <b>LORO MUSICAL S.A.S</b> (<b>LORO MUSICAL</b>), registrado en la Cámara de Comercio de Medellín para Antioquia (Colombia) e identificado con <b>NIT</b> <b>901506267-0</b>.
+                            Entre los suscritos, de una parte <b>LORO MUSICAL S.A.S</b> , con NIT <b>901.506.267-0</b> , con domicilio
+                            en la ciudad de Medellín- Antioquia, representada legalmente por <b>MARIA
+                                GARCES CASTAÑO</b>, identificada con cédula de ciudadanía número 43.261.125 de Medellín y
+                            que de ahora en adelante se conocerá como <b>LORO MUSICAL</b>.
                         </p>
                         <p>
         

@@ -70,21 +70,18 @@ if ($firmado) {
 
   <div class="container" style='text-align:justify'>
     <div class='text-center'>
-      <img src='https://loromusical.co/images/logoLoroMusical.png' alt='' style='width:150px'>
+      <img src='../images/logoLoroMusical.png' alt='' style='width:150px'>
     </div>
 
     <div style=' text-align: center;' class='mt-5'>
-      <h1>ACUERDO DE ADMINISTRACIÓN</h1>
-      <h1>DE DERECHOS FONOGRÁFICOS</h1>
-    </div><br>
+      <h1>CONTRATO DE DISTRIBUCIÓN MUSICAL</h1>
+    </div>
     <div>
-      <p style='text-align: center;'>
-        <b>Fecha Efectiva:</b> @fechaActual
+      <p style='text-align: end;'>
+        @fechaActual
       </p>
-    </div><br>
+    </div>
     <p>
-      El siguiente acuerdo de administración de derechos fonográficos (el <b>ACUERDO</b>), se produce por y entre <b>@nombreCompleto</b> que actúa artísticamente como <b>$stageName</b> (el <b>LICENCIANTE</b>), identificado con <b>$documentType</b> número <b>$document</b>; y <b>LORO MUSICAL S.A.S</b> (<b>LORO MUSICAL</b>), registrado en la Cámara de Comercio de Medellín para Antioquia (Colombia) e identificado con <b>NIT</b> <b>901506267-0</b>.
-
       Entre los suscritos, de una parte <b>LORO MUSICAL S.A.S</b> , con NIT <b>901.506.267-0</b> , con domicilio
       en la ciudad de Medellín- Antioquia, representada legalmente por <b>MARIA
         GARCES CASTAÑO</b>, identificada con cédula de ciudadanía número 43.261.125 de Medellín y
