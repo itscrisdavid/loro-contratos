@@ -61,7 +61,7 @@ if (!empty($_SESSION['active'])) {
             </div>
             <!-- /.col -->
             <div class="col-4">
-              <button type="submit" class="btn btn-dark btn-block">Iniciar Sesión</button>
+              <button type="submit" class="btn btn-dark btn-block">Ingresar</button>
             </div>
             <!-- /.col -->
           </div>

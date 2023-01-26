@@ -5,7 +5,7 @@ $("#formLogin").submit(function (e) {
   if (usuario.length == "" || password == "") {
     Swal.fire({
       position: "center",
-      html: '<img src="../images/logoLoroMusical.png" style="width:100px"><br>',
+      html: '<img src="https://loromusical.co/images/logoLoroMusical.png" style="width:100px"><br>',
       title: "Ingresa el usuario y la contraseña <br>",
       background: " #000000cd",
       showConfirmButton: false,
@@ -22,8 +22,8 @@ $("#formLogin").submit(function (e) {
         if (data == 1) {
           Swal.fire({
             position: "center",
-            html: '<img src="../images/logoLoroMusical.png" style="width:100px"><br>',
-            title: "Bienvenido!!!!",
+            html: '<img src="https://loromusical.co/images/logoLoroMusical.png" style="width:100px"><br>',
+            title: "¡Bienvenido!",
             background: " #000000cd",
             showConfirmButton: false,
             timer: 3000,
@@ -33,8 +33,8 @@ $("#formLogin").submit(function (e) {
         } else {
           Swal.fire({
             position: "center",
-            html: '<img src="../images/logoLoroMusical.png" style="width:100px"><br>',
-            title: "Usuario y/o contraseña incorrecta!!!!",
+            html: '<img src="https://loromusical.co/images/logoLoroMusical.png" style="width:100px"><br>',
+            title: "Usuario y/o contraseña incorrecta",
             background: " #000000cd",
             showConfirmButton: false,
             timer: 3000,

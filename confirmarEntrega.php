@@ -10,8 +10,8 @@ $idEntrega=$_GET['id'];
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>EXPERTOSIP.COM</title>
-  <link rel="icon" href="img/favicon.png">
+  <title>Loro Musical</title>
+  <link rel="icon" href="https://loromusical.co/images/icono.png">
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
@@ -26,7 +26,7 @@ $idEntrega=$_GET['id'];
 <body class="hold-transition login-page bg-dark">
 <div class="login-box">
   <div class="login-logo">
-    <img src="img/expertosip-logo.svg" alt="">
+    <img src="https://loromusical.co/images/logoLoroMusical.png" alt="">
   </div>
   <!-- /.login-logo -->
   <div class="card">
