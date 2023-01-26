@@ -316,6 +316,12 @@ if ($resultado) {
                                         </li>
                                     </ul>
                                 </div>
+                                <?php } else(){ ?>
+                            <div>
+                                <p>
+                                    El sigu
+                                </p>
+                            </div>
                             <?php } ?>
                             <div class='row mt-5 text-center'>
 
