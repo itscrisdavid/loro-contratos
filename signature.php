@@ -78,8 +78,8 @@ if ($firmado) {
       <h1>DE DERECHOS FONOGRÁFICOS</h1>
     </div>
     <div>
-      <p style='text-align: end;'>
-        @fechaActual
+      <p style='text-align: center;'>
+        <b>Fecha Efectiva:</b> @fechaActual
       </p>
     </div>
     <p>

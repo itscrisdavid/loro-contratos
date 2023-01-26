@@ -73,8 +73,8 @@ if ($resultado) {
                     <h1>DE DERECHOS FONOGRÁFICOS</h1>
                 </div>
                 <div style='text-align: end;'>
-                    <p>
-                        <?php echo $fechaActual ?><br>
+                    <p align="center">
+                        <b>Fecha Actual:</b> <?php echo $fechaActual ?><br>
                         <?php print_r('<b>Contrato N°:</b> ' . strtoupper($id)); ?>
                     </p>
                 </div>
