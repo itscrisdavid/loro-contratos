@@ -46,7 +46,7 @@ if ($resultado) {
 
     <head>
         <meta charset="utf-8">
-        <title>Contrato <?php echo $nombreArtistico ?></title>
+        <title>Contrato - <?php echo $nombreArtistico ?></title>
         <meta name="description" content="Contrato de <?php echo $nombreCompleto ?>">
         <link rel="icon" href="https://loromusical.co/images/logoLoroMusical.png">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
@@ -72,9 +72,9 @@ if ($resultado) {
                     <h1>ACUERDO DE ADMINISTRACIÓN</h1>
                     <h1>DE DERECHOS FONOGRÁFICOS</h1>
                 </div><br>
-                <div style='text-align: end;'>
-                    <p align="center">
-                        <b>Fecha Actual:</b> <?php echo $fechaActual ?><br>
+                <div style='text-align: center;'>
+                    <p>
+                        <!-- <b>Fecha Actual:</b> <?php echo $fechaActual ?><br> -->
                         <?php print_r('<b>Contrato N°:</b> ' . strtoupper($id)); ?>
                     </p>
                 </div><br>

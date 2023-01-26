@@ -19,6 +19,7 @@ $usuario = $_SESSION['iduser'];
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Panel de Contratos - Loro Musical</title>
+  <link rel="icon" href="https://loromusical.co/images/logoLoroMusical.png">
 
   <?php include "includes/scriptsUp.php" ?>
 </head>

@@ -75,8 +75,8 @@ if ($resultado) {
                     <h1>ACUERDO DE ADMINISTRACIÓN</h1>
                     <h1>DE DERECHOS FONOGRÁFICOS</h1>
                 </div><br>
-                <div style='text-align: end;'>
-                    <p align="center">
+                <div style='text-align: center;'>
+                    <p>
                         <b>Fecha Efectiva:</b> <?php echo $fechaFirma ?><br>
                         <?php print_r('<b>Contrato N°:</b> ' . strtoupper($id)); ?>
                     </p>
