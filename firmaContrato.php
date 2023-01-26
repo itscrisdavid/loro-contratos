@@ -69,8 +69,8 @@ if ($resultado) {
                 </div>
 
                 <div style=' text-align: center;' class='mt-5'>
-                    <h1>ACUERDO DE ADMINISTRACIÓN</h1>
-                    <h1>DE DERECHOS FONOGRÁFICOS</h1><br>
+                    <h2>ACUERDO DE ADMINISTRACIÓN</h2>
+                    <h2>DE DERECHOS FONOGRÁFICOS</h2><br>
                 </div>
                 <div style='text-align: center;'>
                     <p>
@@ -89,9 +89,9 @@ if ($resultado) {
                 </p>
 
                 <div>
-                    <h6 style='text-align: center;'>
+                    <h4 style='text-align: center;'>
                         CLÁUSULAS
-                    </h6><br>
+                    </h4>
                 </div>
                 <p>
                     <b>PRIMERA: LICENCIA: LORO MUSICAL</b> tendrá los derechos exclusivos de distribución digital de los fonogramas que el <b>LICENCIANTE</b> envíe para su administración desde la Fecha Efectiva hasta la duración de este <b>ACUERDO</b>.
