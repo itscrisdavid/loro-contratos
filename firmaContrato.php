@@ -71,7 +71,7 @@ if ($resultado) {
                 <div style=' text-align: center;' class='mt-5'>
                     <h1>ACUERDO DE ADMINISTRACIÓN</h1>
                     <h1>DE DERECHOS FONOGRÁFICOS</h1>
-                </div>
+                </div><br>
                 <div style='text-align: end;'>
                     <p align="center">
                         <b>Fecha Actual:</b> <?php echo $fechaActual ?><br>
