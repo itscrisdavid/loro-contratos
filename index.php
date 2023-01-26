@@ -31,7 +31,7 @@ if (!empty($_SESSION['active'])) {
 <body class="hold-transition login-page bg-dark">
   <div class="login-box">
     <div class="login-logo">
-      <img src="https://loromusical.co/images/logoLoroMusical.png" alt="" style="width:100px">
+      <img src="https://loromusical.co/images/logoLoroMusical.png" alt="" style="width:125px">
     </div>
     <!-- /.login-logo -->
     <div class="card">
