@@ -78,6 +78,8 @@ if ($resultado) {
                 <div style='text-align: end;'>
                     <p align="center">
                         <b>Fecha Efectiva:</b> <?php echo $fechaActual ?>
+                    </p>
+                    <p align="center">
                         <?php print_r('Contrato N°' . strtoupper($id)); ?>
                     </p>
                 </div><br>
