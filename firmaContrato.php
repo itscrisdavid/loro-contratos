@@ -132,13 +132,54 @@ if ($resultado) {
                     <li>
                         A menos que se especifique expresamente lo contrario, la anterior licencia es exclusiva en todo el <b>TERRITORIO</b> durante el tiempo estipulado en la cláusula tercera de este <b>ACUERDO</b>. De manera que el <b>LICENCIANTE</b> no otorgará a terceros los derechos concebidos a <b>LORO MUSICAL</b> en el <b>ACUERDO</b> en el <b>TERRITORIO</b> durante la duración de este <b>ACUERDO</b>. <b>El LICENCIANTE</b> reconoce y acuerda que <b>LORO MUSICAL</b> podrá utilizar a terceros para ejercer los derechos que le han sido otorgados en este <b>ACUERDO</b>.
                     </li>
-                </ul>
+                </ul><br>
                 <div>
                     <h3 style='text-align: center;'>
                         ANEXO<br>
                         DEFINIFICIONES
                     </h3><br>
                 </div>
+                <ul>
+                    <li>
+                        “Fecha Efectiva” es la fecha en la que se considera que el <b>ACUERDO</b> entra en vigor y que siempre estará en el encabezado de este <b>ACUERDO</b>.
+                    </li>
+                    <li>
+                        “Ingresos Netos” significa todo el dinero recibido por o adeudados a <b>LORO MUSICAL</b> directamente atribuible a la venta, licencia, explotación, o uso de los fonogramas, videos y servicios de administración del Canal de YouTube en virtud del presente, menos cualesquiera tarifas de procesamiento de transacciones de transferencia de dinero, impuestos de ventas aplicables y retenciones fiscales requeridas en territorios aplicables y tarifas de la escala sindical (cuando sea aplicable). En caso de que <b>LORO MUSICAL</b> reciba un pago de una Plataformas de Terceros que no corresponda directamente al pago adeudado por la explotación del contenido, incluyendo, pero sin limitarse a (i) un pago relacionado con la venta de capitales de una Plataforma de Terceros; (ii) una porción no recuperada que haga parte de un anticipo entregado por una Plataforma de Terceros, que para ese momento dicha plataforma ya no pueda recuperar; (iii) y un pago para compensar la deuda de una garantía mínima; <b>LORO MUSICAL</b> aplicará un método, a su entera discreción, para determinar la asignación, si la hubiera, de dichos montos al <b>LICENCIANTE</b>. En el caso de que dichos montos se vayan a asignar, según lo determinado a discreción de <b>LORO MUSICAL</b>, <b>LORO MUSICAL</b> aplicará un método de cálculo de manera uniforme y equitativa para todos los clientes en situación similar y los montos asignados al <b>LICENCIANTE</b> se considerarán parte de los ingresos netos aquí establecidos. A través de la suscripción de este <b>ACUERDO</b>, el <b>LICENCIANTE</b> reconoce y acepta que no tendrá derecho alguno a objetar o impugnar este método utilizado por <b>LORO MUSICAL</b> para determinar el porcentaje que le sea asignado y/o su participación dentro de dichos pagos por parte de <b>LORO MUSICAL</b>.
+                    </li>
+                    <li>
+                        “Content ID” el sistema de identificación de contenido de YouTube es un programa de huellas digitales de audio que permite a YouTube catalogar la música enviada, lo que permite a los propietarios de derechos de autor identificar dónde se está utilizando su música en YouTube. Content ID fue diseñado para permitirte recuperar el control sobre dónde se puede escuchar tu música y para ayudarte a recibir pagos cuando tu música se usa en YouTube.
+                    </li>
+                    <li>
+                        “Derechos Conexos” significa el derecho a reproducir y comunicar públicamente por medios de difusión, terrestre, análogos o digitales de transmisión de audio, fonogramas protegidos por las normas de propiedad intelectual; únicamente en lo que respecta al productor fonográfico.
+                    </li>
+                    <li>
+                        “Regalías por Comunicación Pública” consiste en un pago dado por la explotación del derecho patrimonial de comunicación pública; es decir, cada vez que la música suene en establecimientos abiertos como bares, restaurantes, conciertos, hoteles, supermercados, etc., estas empresas deberán reconocerle un valor a unas entidades conocidas como Sociedades de Gestión Colectiva, cuya misión es dar licencias, monitorear los usos, recaudar los dineros y entregárselos a los compositores, intérpretes, ejecutantes y productores fonográficos afiliados.
+                    </li>
+                    <li>
+                        “Administración del Canal de YouTube” aplica cuando <b>LORO MUSICAL</b> está administrando el canal de YouTube, nos encargamos de optimizar el rendimiento al máximo, manteniéndolos sanos a través de la resolución de conflictos de propiedad y hacemos que aumenten los ingresos debido a la mejora de tasas como YouTube Ad Revenue, RPM o CPM.
+                    </li>
+                    <li>
+                        “Contenido” significa todos los fonogramas, videos, materiales del álbum, contenido de YouTube y otros materiales entregados por el <b>LICENCIANTE</b> a <b>LORO MUSICAL</b>.
+                    </li>
+                    <li>
+                        “Medios Interactivos” es un servicio interactivo en entornos digitales; es decir, que el usuario puede escuchar cualquier canción de la base de datos del proveedor de servicios digitales (Digital Service Provider o DSP, por sus siglas en inglés) sin restricciones de tiempo o capacidad de reproducción.
+                    </li>
+                    <li>
+                        “Medios No Interactivos” significa todos los medios por los cuales en la transmisión de la música  el usuario puede reproducir la música pero no se permite seleccionar la próxima canción, por ejemplo: la radio, radio por internet y algunas DSPs.
+                    </li>
+                    <li>
+                        “Plataforma de Terceros” significa minoristas y plataformas, digitales, de streaming interactivo o no interactivo, en la nube, redes sociales, móviles y/o de internet de terceros que distribuyen, transmiten, explotan o de cualquier otra forma ponen a disposición música, videos y otros contenidos, incluyendo, sin limitación, plataformas, tecnologías y servicios que pueden existir o desarrollarse después de la Fecha Efectiva.
+                    </li>
+                    <li>
+                        “Cuenta de Usuario” se refiere a la herramienta autogestión que el usuario puede utilizar para administrar sus lanzamientos, obtener información sobre reproducciones y reportes de ventas, analizar sus Ingresos Netos y solicitar la retirada de estos mismos hacia su PayPal o cuenta bancaria, dependiendo del caso.
+                    </li>
+                    <li>
+                        “Sitio Web” significa el(los) sitio(s) web de <b>LORO MUSICAL</b>.
+                    </li>
+                    <li>
+                        “Explotación” es el aprovechamiento del catálogo para ser publicado, transmitido, utilizado,  vendido y puesto en disposición en Plataformas de Terceros, Medios Interactivos y No Interactivos.
+                    </li>
+                </ul>
                 <div class='row mt-5 text-center'>
 
                     <div class='col-12 '>
