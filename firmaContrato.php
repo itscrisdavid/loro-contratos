@@ -89,9 +89,9 @@ if ($resultado) {
                 </p>
 
                 <div>
-                    <h4 style='text-align: center;'>
+                    <h3 style='text-align: center;'>
                         CLÁUSULAS
-                    </h4>
+                    </h3><br>
                 </div>
                 <p>
                     <b>PRIMERA: LICENCIA: LORO MUSICAL</b> tendrá los derechos exclusivos de distribución digital de los fonogramas que el <b>LICENCIANTE</b> envíe para su administración desde la Fecha Efectiva hasta la duración de este <b>ACUERDO</b>.
