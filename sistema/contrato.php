@@ -81,13 +81,10 @@ if ($resultado) {
                         <?php print_r('<b>Contrato N°:</b> ' . strtoupper($id)); ?>
                     </p>
                 </div><br>
-                <?php if($fechaActual <'07-07-2022 00:00:0') { ?>
+                <?php if($fechaActual <'2022-07-07 00:00:0') { ?>
                     <div>
                         <p>
-                            Entre los suscritos, de una parte <b>LORO MUSICAL S.A.S</b> , con NIT <b>901.506.267-0</b> , con domicilio
-                            en la ciudad de Medellín- Antioquia, representada legalmente por <b>MARIA
-                                GARCES CASTAÑO</b>, identificada con cédula de ciudadanía número 43.261.125 de Medellín y
-                            que de ahora en adelante se conocerá como <b>LORO MUSICAL</b>.
+                            El siguiente acuerdo de administración de derechos fonográficos (el <b>ACUERDO</b>), se produce por y entre <b><?php echo $nombreCompleto ?></b> que actúa artísticamente como <b>$stageName</b> (el <b>LICENCIANTE</b>), identificado con <b>$documentType</b> número <b>$document</b>; y <b>LORO MUSICAL S.A.S</b> (<b>LORO MUSICAL</b>), registrado en la Cámara de Comercio de Medellín para Antioquia (Colombia) e identificado con <b>NIT</b> <b>901506267-0</b>.
                         </p>
                         <p>
         
