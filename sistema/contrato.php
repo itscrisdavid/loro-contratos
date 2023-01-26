@@ -81,14 +81,14 @@ if ($resultado) {
                             <?php print_r('<b>Contrato N°:</b> ' . strtoupper($id)); ?>
                         </p>
                     </div><br>
-                    <?php if($email = 'gustavoreyessiachicad2022@gmail.com') { ?>
+                    <?php if($fechaFirma <'2023-01-23 00:00:0') { ?>
                         <div>
                             <p>
                                 Elso siguiente acuerdo de administración de derechos fonográficos (el <b>ACUERDO</b>), se produce por y entre <b><?php echo $nombreCompleto ?></b> que actúa artísticamente como <b><?php echo $nombreArtistico ?></b> (el <b>LICENCIANTE</b>), identificado con <b><?php echo $tipoDcto ?></b> número <b><?php echo $nroDcto ?></b>; y <b>LORO MUSICAL S.A.S</b> (<b>LORO MUSICAL</b>), registrado en la Cámara de Comercio de Medellín para Antioquia (Colombia) e identificado con <b>NIT 901506267-0</b>.
                             </p>
                             
                             </div>
-                        <?php } else($fechaFirma <'2023-01-23 00:00:0'){ ?>
+                        <?php } else{ ?>
                             <div>
                                 <p>
                                     El siguiente acuerdo de administración de derechos fonográficos (el <b>ACUERDO</b>), se produce por y entre <b><?php echo $nombreCompleto ?></b> que actúa artísticamente como <b><?php echo $nombreArtistico ?></b> (el <b>LICENCIANTE</b>), identificado con <b><?php echo $tipoDcto ?></b> número <b><?php echo $nroDcto ?></b>; y <b>LORO MUSICAL S.A.S</b> (<b>LORO MUSICAL</b>), registrado en la Cámara de Comercio de Medellín para Antioquia (Colombia) e identificado con <b>NIT 901506267-0</b>.
@@ -316,12 +316,6 @@ if ($resultado) {
                                         </li>
                                     </ul>
                                 </div>
-                                <?php } else{ ?>
-                            <div>
-                                <p>
-                                    El sigu
-                                </p>
-                            </div>
                             <?php } ?>
                             <div class='row mt-5 text-center'>
 
