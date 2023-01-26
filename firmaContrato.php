@@ -238,8 +238,8 @@ if ($resultado) {
 
                 </div>
             </div>
-            <div class="text-center" align="center">
-                <div id="signature-pad" class="signature-pad mt-5 ">
+            <div class="text-center">
+                <center><div id="signature-pad" class="signature-pad mt-5 ">
                     <div class="signature-pad--body">
                         <canvas></canvas>
                     </div>
@@ -255,7 +255,7 @@ if ($resultado) {
 
                         </div>
                     </div>
-                </div>
+                </div></center>
 
                 <div id="enviar" class="mt-5 mb-5">
                     <button type="button" class="btn btn-info" data-action="guardar-firma"> Enviar Contrato</button>
