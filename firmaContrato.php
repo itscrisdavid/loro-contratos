@@ -74,7 +74,8 @@ if ($resultado) {
                 <div style='text-align: center;'>
                     <p>
                         <!-- <b>Fecha Actual:</b> <?php echo $fechaActual ?><br> -->
-                        <?php print_r('<b>Contrato N°:</b> ' . strtoupper($id)); ?>
+                        <b>Fecha Actual:</b> Se asignará al momento de la firma
+                        <!-- <?php print_r('<b>Contrato N°:</b> ' . strtoupper($id)); ?> -->
                     </p><br>
                 </div>
                 <p>
