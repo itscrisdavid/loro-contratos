@@ -14,7 +14,7 @@ if (!empty($_SESSION['active'])) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Loro Musical</title>
+  <title>Sistema de Contratos - Loro Musical</title>
   <link rel="icon" href="https://loromusical.co/images/icono.png">
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -36,7 +36,7 @@ if (!empty($_SESSION['active'])) {
     <!-- /.login-logo -->
     <div class="card">
       <div class="card-body login-card-body">
-        <p class="login-box-msg">Iniciar Sesión </p>
+        <p class="login-box-msg">Panel de Contratos</p>
 
         <form method="post" id="formLogin">
           <div class="input-group mb-3">
@@ -61,7 +61,7 @@ if (!empty($_SESSION['active'])) {
             </div>
             <!-- /.col -->
             <div class="col-4">
-              <button type="submit" class="btn btn-dark btn-block">Ingresar</button>
+              <button type="submit" class="btn btn-dark btn-block">Iniciar Sesión</button>
             </div>
             <!-- /.col -->
           </div>
