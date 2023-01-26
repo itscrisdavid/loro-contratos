@@ -135,7 +135,7 @@ if ($resultado) {
                 </ul>
                 <div>
                     <h6 style='text-align: center;'>
-                        ANEXO
+                        ANEXO<br>
                         DEFINIFICIONES
                     </h6><br>
                 </div>
