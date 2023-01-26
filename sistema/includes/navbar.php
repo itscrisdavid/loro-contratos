@@ -28,7 +28,7 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
 
     <a href="index.php" class="brand-link text-center">
-        <img src="../../images/logoLoroMusical.png" alt="AdminLTE Logo" class="brand-imageelevation-3" style="opacity: .8" height="60">
+        <img src="https://loromusical.co/images/logoLoroMusical.png" alt="AdminLTE Logo" class="brand-imageelevation-3" style="opacity: .8" height="60">
     </a>
     <div class="sidebar ">
         <nav class="mt-5" style="margin-top: 60px;">
