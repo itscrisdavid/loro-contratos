@@ -133,6 +133,12 @@ if ($resultado) {
                         A menos que se especifique expresamente lo contrario, la anterior licencia es exclusiva en todo el <b>TERRITORIO</b> durante el tiempo estipulado en la cláusula tercera de este <b>ACUERDO</b>. De manera que el <b>LICENCIANTE</b> no otorgará a terceros los derechos concebidos a <b>LORO MUSICAL</b> en el <b>ACUERDO</b> en el <b>TERRITORIO</b> durante la duración de este <b>ACUERDO</b>. <b>El LICENCIANTE</b> reconoce y acuerda que <b>LORO MUSICAL</b> podrá utilizar a terceros para ejercer los derechos que le han sido otorgados en este <b>ACUERDO</b>.
                     </li>
                 </ul>
+                <div>
+                    <h6 style='text-align: center;'>
+                        ANEXO
+                        DEFINIFICIONES
+                    </h6><br>
+                </div>
                 <div class='row mt-5 text-center'>
 
                     <div class='col-12 '>
