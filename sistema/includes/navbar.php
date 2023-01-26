@@ -48,7 +48,7 @@
                 <li class="nav-item">
                     <a href="listaUsuarios.php" class="nav-link">
                         <i class="fas fa-sign-in-alt"></i>
-                        <p>Usuarios</p>
+                        <p>Usuarios (Pendiente)</p>
                     </a>
                 </li>
             </ul>
