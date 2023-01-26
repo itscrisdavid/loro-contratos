@@ -81,7 +81,7 @@ if ($resultado) {
                         <?php print_r('<b>Contrato N°:</b> ' . strtoupper($id)); ?>
                     </p>
                 </div><br>
-                <?php if($fechaActual <'2022-07-07 00:00:0') { ?>
+                <?php if($fechaActual <'07-07-2022 00:00:0') { ?>
                     <div>
                         <p>
                             Entre los suscritos, de una parte <b>LORO MUSICAL S.A.S</b> , con NIT <b>901.506.267-0</b> , con domicilio
