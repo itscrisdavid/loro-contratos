@@ -45,6 +45,12 @@
                         <p>Nuevo Contrato</p>
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a href="listaUsuarios.php" class="nav-link">
+                        <i class="fas fa-sign-in-alt"></i>
+                        <p>Usuarios</p>
+                    </a>
+                </li>
             </ul>
         </nav>
     </div>

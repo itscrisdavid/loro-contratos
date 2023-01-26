@@ -2,4 +2,8 @@ login.html
 confirmarEntrega.php
 signature.sql
 css/ie9.css
+sistema/reporteEntrega.php
+sistema/listaEntregas.php
+sistema/listaEmpresas.php
+sistema/listaEmpleados.php
 img
