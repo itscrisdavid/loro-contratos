@@ -18,7 +18,7 @@ $usuario = $_SESSION['iduser'];
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Panel - Loro Musical</title>
+  <title>Panel de Contratos - Loro Musical</title>
 
   <?php include "includes/scriptsUp.php" ?>
 </head>
@@ -79,14 +79,12 @@ $usuario = $_SESSION['iduser'];
               <th>Nro Contrato</th>
               <th>Nombre Completo</th>
               <th>Nombre Artista</th>
-              <th>Fecha Registro</th>
               <th>Nro Documento</th>
+              <th>Fecha Registro</th>
               <th>Celular</th>
-              <th>Ya firmo</th>
+              <th>¿Firma?</th>
               <th>Contrato</th>
-
             </tr>
-
           </thead>
 
           <tbody>
@@ -106,8 +104,8 @@ $usuario = $_SESSION['iduser'];
                 <td><?php echo ($contrato['id_aleatorio']); ?></td>
                 <td><?php echo ($contrato['nombre_completo']); ?></td>
                 <td><?php echo ($contrato['nombre_artista']); ?></td>
-                <td><?php echo ($contrato['fecha_contrato']); ?></td>
                 <td><?php echo ($contrato['tipo_documento'] . ' ' . $contrato['nro_documento']); ?></td>
+                <td><?php echo ($contrato['fecha_contrato']); ?></td>
                 <td><?php echo ('+' . $contrato['codigo_telefono'] . ' ' . $contrato['celular']); ?></td>
                 <td><?php echo ($contrato['log_termino'] == 0 ? '<a target="_blank" href=https://api.whatsapp.com/send?phone=+' . $contrato['codigo_telefono'] . $contrato['celular'] . '&text=Hola%20' . $outputString . ',%20queremos%20darte%20la%20bienvenida%20a%20*Loro%20Musical*.%20En%20este%20link%20encontrar%C3%A1s%20tu%20contrato,%20si%20estas%20de%20acuerdo,%20firmalo%20y%20env%C3%ADalo%20https://loromusical.co/admin/firmaContrato.php?id=' . $contrato['id_aleatorio'] . '>No, Enviar Mensaje</a>' : $contrato['fecha_termino']); ?></td>
                 <td>
