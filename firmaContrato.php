@@ -238,7 +238,7 @@ if ($resultado) {
 
                 </div>
             </div>
-            <div class="text-center">
+            <div class="text-center" align="center">
                 <div id="signature-pad" class="signature-pad mt-5 ">
                     <div class="signature-pad--body">
                         <canvas></canvas>
