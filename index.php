@@ -36,7 +36,7 @@ if (!empty($_SESSION['active'])) {
     <!-- /.login-logo -->
     <div class="card">
       <div class="card-body login-card-body">
-        <p class="login-box-msg">Inicio Sesión </p>
+        <p class="login-box-msg">Iniciar Sesión </p>
 
         <form method="post" id="formLogin">
           <div class="input-group mb-3">
