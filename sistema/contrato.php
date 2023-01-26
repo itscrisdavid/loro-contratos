@@ -79,7 +79,7 @@ if ($resultado) {
                     <p align="center">
                         <b>Fecha Efectiva:</b> <?php echo $fechaActual ?>
                     </p>
-                </div>
+                </div><br>
                 <?php if($fechaActual <'2022-07-07 00:00:0') { ?>
                     <div>
                         <p>
