@@ -18,7 +18,7 @@ $usuario = $_SESSION['iduser'];
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>REGISTRO DE ENTREGA</title>
+    <title>Nuevo Contrato - Loro Musical</title>
 
     <?php include "includes/scriptsUp.php" ?>
 </head>
@@ -38,12 +38,12 @@ $usuario = $_SESSION['iduser'];
                     <!-- inicio de cuerpo de trabajo -->
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Formulario</h1>
+                            <h1 class="m-0">Nuevo Contrato</h1>
                         </div><!-- /.col -->
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
                                 <li class="breadcrumb-item"><a href="index.php">Inicio</a></li>
-                                <li class="breadcrumb-item active">Registro Contrato</li>
+                                <li class="breadcrumb-item active">Nuevo Contrato</li>
                             </ol>
                         </div>
                     </div>
@@ -56,44 +56,44 @@ $usuario = $_SESSION['iduser'];
                 <div class="container-fluid">
 
                     <div class=" mx-auto d-block border border-dark rounded col-md-12 mb-4">
-                        <h2 class="mx-auto d-block mt-2 p-1 text-center">Registro de Contratos para artistas</h2>
+                        <h2 class="mx-auto d-block mt-2 p-1 text-center">Creación de Nuevo Contrato</h2>
                         <form action="" id="formIngresoContrato" class="needs-validation mt-4 p-2 " method="POST" novalidate>
                             <div class="form-row">
 
                                 <div class="form-group col-md-5">
 
-                                    <label for="nombreCompleto">Nombre completo del Artista (*):</label>
+                                    <label for="nombreCompleto">Nombre Completo (*):</label>
                                     <input type="text" id="nombreCompleto" name="nombreCompleto" class="form-control" style="color:darkgray" required autocomplete="off">
-                                    <div class="invalid-feedback">Ingrese la nombre completo</div>
+                                    <div class="invalid-feedback">Ingrese el nombre completo</div>
                                 </div>
                                 <div class="form-group col-md-4">
 
-                                    <label for="nombreArtistico">Nombre Artísitico (*):</label>
+                                    <label for="nombreArtistico">Nombre Artístico (*):</label>
                                     <input type="text" id="nombreArtistico" name="nombreArtistico" class="form-control" style="color:darkgray" required autocomplete="off">
-                                    <div class="invalid-feedback">Ingrese la nombre del artista</div>
+                                    <div class="invalid-feedback">Ingrese el nombre artístico</div>
                                 </div>
                                 <div class="form-group col-md-3">
 
-                                    <label for="email">Correo (*):</label>
+                                    <label for="email">Correo electrónico (*):</label>
                                     <input type="email" id="email" name="email" class="form-control" style="color:darkgray" required autocomplete="off">
-                                    <div class="invalid-feedback">Ingrese Correo</div>
+                                    <div class="invalid-feedback">Ingrese el correo electrónico</div>
                                 </div>
                                 <div class="form-group col-md-4">
 
                                     <label for="tipoDcto">Tipo Documento (*):</label>
                                     <select name="tipoDcto" class="form-control select2" id="tipoDcto" required>
                                         <option disabled selected value="">Seleccione un tipo de Documento</option>
-                                        <option value="CC"> Cedula de Ciudadanía</option>
-                                        <option value="CE"> CEDULA DE EXTRANJERIA</option>
-                                        <option value="PAP"> PASAPORTE</option>
+                                        <option value="CC"> Cédula de Ciudadanía</option>
+                                        <option value="CE"> Cédula de Extranjería</option>
+                                        <option value="PAP"> Pasaporte</option>
                                     </select>
-                                    <div class="invalid-feedback">Ingrese El tipo de documento</div>
+                                    <div class="invalid-feedback">Ingrese el tipo de documento</div>
                                 </div>
                                 <div class="form-group col-md-4">
 
-                                    <label for="nroDcto">Nro Documento (*):</label>
+                                    <label for="nroDcto">Número Documento (*):</label>
                                     <input type="number" id="nroDcto" name="nroDcto" class="form-control" style="color:darkgray" required autocomplete="off">
-                                    <div class="invalid-feedback">Ingrese documento del artista</div>
+                                    <div class="invalid-feedback">Ingrese el número de documento</div>
                                 </div>
                                 <div class="form-group col-md-4">
                                     <?php
