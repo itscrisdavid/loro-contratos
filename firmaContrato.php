@@ -37,7 +37,7 @@ if ($resultado) {
         $numeroCuenta  = $resultado[0]['numero_cuenta'];
         $firma  = $resultado[0]['firma_usuario'];
         $email  = $resultado[0]['email'];
-        print_r('Contrato N°' . strtoupper($id));
+        // print_r('Contrato N°' . strtoupper($id));
     }
 ?>
 
@@ -74,7 +74,8 @@ if ($resultado) {
                 </div>
                 <div style='text-align: end;'>
                     <p>
-                        <?php echo $fechaActual ?>
+                        <?php echo $fechaActual ?><br>
+                        <?php print_r('<b>Contrato N°:</b> ' . strtoupper($id)); ?>
                     </p>
                 </div>
                 <p>
