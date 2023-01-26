@@ -37,17 +37,17 @@ if ($resultado) {
         $numeroCuenta  = $resultado[0]['numero_cuenta'];
         $firma  = $resultado[0]['firma_usuario'];
         $email  = $resultado[0]['email'];
-        <center>print_r('Contrato N°' . strtoupper($id));</center>
+        print_r('Contrato N°' . strtoupper($id));
     }
 ?>
 
     <!doctype html>
-    <html lang="en">
+    <html lang="es">
 
     <head>
         <meta charset="utf-8">
         <title>Contrato - <?php echo $nombreArtistico ?></title>
-        <meta name="description" content="Contrato de <?php echo $nombreCompleto ?>">
+        <meta name="description" content="Acuerdo Administración - <?php echo $nombreArtistico ?>">
         <link rel="icon" href="https://loromusical.co/images/logoLoroMusical.png">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
@@ -56,7 +56,6 @@ if ($resultado) {
 
         <link rel="stylesheet" href="css/signature-pad.css">
         <link href="plugins/sweetalert2/sweetalert2.css" rel="stylesheet">
-
     </head>
 
     <body oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
@@ -65,7 +64,7 @@ if ($resultado) {
         if (!$firmado) { ?>
             <div class="container" style='text-align:justify'>
                 <div class='text-center'>
-                    <img src='https://loromusical.co/images/logoLoroMusical.png' alt='' style='width:150px'>
+                    <img src='https://loromusical.co/images/logoLoroMusical.png' alt='' style='width:100px'>
                 </div>
 
                 <div style=' text-align: center;' class='mt-5'>
