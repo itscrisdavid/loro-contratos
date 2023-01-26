@@ -316,7 +316,7 @@ if ($resultado) {
                                         </li>
                                     </ul>
                                 </div>
-                                <?php } else(){ ?>
+                                <?php } else{ ?>
                             <div>
                                 <p>
                                     El sigu
