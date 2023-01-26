@@ -49,7 +49,7 @@ if ($resultado) {
         <head>
             <meta charset="utf-8">
             <?php if ($firmado) : ?>
-                <title>Contrato - <?php echo $nombreArtistico ?></title>
+                <title>Acuerdo Administración - <?php echo $nombreArtistico ?></title>
                 <meta name="description" content="Contrato de <?php echo $nombreCompleto ?>">
             <?php endif ?>
             <link rel="icon" href="https://loromusical.co/images/icono.png">
@@ -79,8 +79,8 @@ if ($resultado) {
                         <p>
                             <b>Fecha Efectiva:</b> <?php echo $fechaFirma ?><br>
                             <?php print_r('<b>Contrato N°:</b> ' . strtoupper($id)); ?>
-                        </p>
-                    </div><br>
+                        </p><br>
+                    </div>
                     <?php if($fechaFirma < '2023-01-23 00:00:0') { ?>
                         <div>
                             <p>

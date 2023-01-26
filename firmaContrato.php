@@ -73,9 +73,7 @@ if ($resultado) {
                     </div>
                     <div style='text-align: center;'>
                         <p>
-                            <!-- <b>Fecha Efectiva:</b> <?php echo $fechaActual ?><br> -->
                             <b>Fecha Efectiva:</b> Se asignará al firmar
-                            <!-- <?php print_r('<b>Contrato N°:</b> ' . strtoupper($id)); ?> -->
                         </p><br>
                     </div>
                     <p>
