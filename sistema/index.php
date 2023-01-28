@@ -76,7 +76,7 @@ $usuario = $_SESSION['iduser'];
         <table class="table table-hover table-condensed table-bordered tablaDinamica" id="" width="100%" cellspacing="0">
           <thead>
             <tr class="text-center">
-              <th>ID</th>
+              <!-- <th>ID</th> -->
               <th>Nro Contrato</th>
               <th>Nombre Completo</th>
               <th>Nombre Artista</th>
@@ -101,7 +101,7 @@ $usuario = $_SESSION['iduser'];
               $outputString = str_replace($searchString, $replaceString, $contrato['nombre_artista']);
             ?>
               <tr class="text-center">
-                <td><?php echo ($contrato['id_contrato']); ?></td>
+                <!-- <td><?php echo ($contrato['id_contrato']); ?></td> -->
                 <td><?php echo ($contrato['id_aleatorio']); ?></td>
                 <td><?php echo ($contrato['nombre_completo']); ?></td>
                 <td><?php echo ($contrato['nombre_artista']); ?></td>
