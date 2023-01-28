@@ -230,8 +230,8 @@ $usuario = $_SESSION['iduser'];
                             Swal.fire({
                                 position: 'center',
                                 icon: 'success',
-                                html: '<img src="../../images/logoLoroMusical.png" style="width:100px">',
-                                title: '<br>Contrato Registrado Corectamente',
+                                html: '<img src="https://loromusical.co/images/logoLoroMusical.png" style="width:100px">',
+                                title: '<br>Contrato registrado corectamente',
                                 background: ' #000000cd',
                                 showConfirmButton: false,
                                 timer: 2000,
@@ -242,8 +242,8 @@ $usuario = $_SESSION['iduser'];
                             Swal.fire({
                                 position: 'center',
                                 icon: 'error',
-                                html: '<img src="../../images/logoLoroMusical.png" style="width:100px">',
-                                title: '<br>Error al ingresar Contrato',
+                                html: '<img src="https://loromusical.co/images/logoLoroMusical.png" style="width:100px">',
+                                title: '<br>Error al ingresar el contrato',
                                 background: ' #000000cd',
                                 showConfirmButton: false,
                                 timer: 2000,
