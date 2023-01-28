@@ -402,7 +402,7 @@ if ($resultado) {
                                 Representante Legal de <b>LORO MUSICAL</b>
                             </div>
                             <div class='col-md-6'>
-                                <div class=''><img aling="center" alisrc="<?php echo $firmaArtista ?>" alt="Firma LICENCIANTE" width="300px"></div>
+                                <div class=''><img alisrc="<?php echo $firmaArtista ?>" alt="Firma LICENCIANTE" width="300px"></div>
                                 <?php echo $nombreCompleto ?> <br>
                                 <?php echo $tipoDcto . '. ' . $nroDcto ?> <br>
                                 El <b>LICENCIANTE</b> <br>
