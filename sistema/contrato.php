@@ -396,13 +396,13 @@ if ($resultado) {
                         <div class='row mt-5 text-center'>
 
                             <div class='col-md-6 '>
-                                <div class=''><img src="<?php echo $firmaRepresentante ?>" alt="Firma Representante" width="300px"></div>
+                                <div class=''><img src="<?php echo $firmaRepresentante ?>" alt="Firma LORO MUSICAL" width="300px"></div>
                                 María Garcés Castaño<br>
                                 C.C. 43.261.125 de Medellín<br>
                                 Representante Legal de <b>LORO MUSICAL</b>
                             </div>
                             <div class='col-md-6'>
-                                <center><div class=''><img src="<?php echo $firmaArtista ?>" alt="Firma Artista" width="300px"></div></center>
+                                <div aling="center" class=''><img alisrc="<?php echo $firmaArtista ?>" alt="Firma LICENCIANTE" width="300px"></div>
                                 <?php echo $nombreCompleto ?> <br>
                                 <?php echo $tipoDcto . '. ' . $nroDcto ?> <br>
                                 El <b>LICENCIANTE</b> <br>
