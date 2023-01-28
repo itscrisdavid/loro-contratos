@@ -3,8 +3,8 @@
 class Conexion
 {
     //atributos
-    public $usuarioDB = "flowloro";
-    public $passwordDB = "mfb*ntf_dfr9MRT-xfx";
+    public $usuarioDB = "flowvibras";
+    public $passwordDB = "tra!xqz7KBF_qxb8tce";
 
     //constructor
     public function __construct()
@@ -16,7 +16,7 @@ class Conexion
     {
 
         try {
-            $datosDB = "mysql:host=database-flow-loromusical.cluster-cnfamkyr87aa.us-east-1.rds.amazonaws.com;dbname=flow_loroagreements;charset=utf8";
+            $datosDB = "mysql:host=database-flow-vibras.cluster-cnfamkyr87aa.us-east-1.rds.amazonaws.com;dbname=flow_loroagreements;charset=utf8";
             $conexionBD = new PDO($datosDB, $this->usuarioDB, $this->passwordDB);
             return ($conexionBD);
         } catch (PDOException $error) {
