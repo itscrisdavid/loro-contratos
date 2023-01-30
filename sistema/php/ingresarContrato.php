@@ -19,10 +19,10 @@ $carateresPermitidos = '0123456789abcdefghijklmnopqrstuvwxyz';
 $aleatorio = substr(str_shuffle($carateresPermitidos), 0, 10);
 
 $consultaSQL = "INSERT INTO contratos (nombre_completo, nombre_artista, email, 
-                tipo_documento,  nro_documento, expedicion_documento, ciudad_domicilio,
-                id_banco,tipo_cuenta, numero_cuenta, celular, id_aleatorio, id_pais) 
+                tipo_documento,  nro_documento, id_banco, tipo_cuenta, 
+                numero_cuenta, celular, id_aleatorio, id_pais) 
                 values ('$nombreCompleto' , '$nombreArtistico', '$email', '$tipoDcto', '$nroDcto', 
-                '$expedicion', '$domicilio', $banco, '$tipoCuenta', $numeroCuenta, '$celular', '$aleatorio', '$pais' )";
+                '$banco', '$tipoCuenta', '$numeroCuenta', '$celular', '$aleatorio', '$pais' )";
 
 
 $insert = $conexion->agregarDatos($consultaSQL);
