@@ -144,7 +144,7 @@ $usuario = $_SESSION['iduser'];
                                     <label for="celular">Celular (*):</label>
                                     <input type="number" id="celular" name="celular" class="form-control" style="color:darkgray" required autocomplete="off">
                                     <div class="invalid-feedback">Ingrese nro Celular</div>
-                                </div>
+                                </div></div>
                                 <div class="col-12">Información Bancaria</div>
                                 <div class="row border border-dark rounded col-12">
                                     <div class="form-group col-md-4">
