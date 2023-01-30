@@ -59,24 +59,41 @@ $usuario = $_SESSION['iduser'];
                         <h2 class="mx-auto d-block mt-2 p-1 text-center">Creación de Nuevo Contrato</h2>
                         <form action="" id="formIngresoContrato" class="needs-validation mt-4 p-2 " method="POST" novalidate>
                             <div class="form-row">
-
-                                <div class="form-group col-md-5">
+                                <div class="col-12">Información Bancaria</div>
+                                <div class="row border border-dark rounded col-12">
+                                <div class="form-group col-md-6">
 
                                     <label for="nombreCompleto">Nombre Completo (*):</label>
                                     <input type="text" id="nombreCompleto" name="nombreCompleto" class="form-control" style="color:darkgray" required autocomplete="off">
                                     <div class="invalid-feedback">Ingrese el nombre completo</div>
                                 </div>
-                                <div class="form-group col-md-4">
+                                <div class="form-group col-md-6">
 
                                     <label for="nombreArtistico">Nombre Artístico (*):</label>
                                     <input type="text" id="nombreArtistico" name="nombreArtistico" class="form-control" style="color:darkgray" required autocomplete="off">
                                     <div class="invalid-feedback">Ingrese el nombre artístico</div>
                                 </div>
-                                <div class="form-group col-md-3">
+                                <div class="form-group col-md-6">
 
-                                    <label for="email">Correo electrónico (*):</label>
+                                    <label for="email">Correo Electrónico (*):</label>
                                     <input type="email" id="email" name="email" class="form-control" style="color:darkgray" required autocomplete="off">
                                     <div class="invalid-feedback">Ingrese el correo electrónico</div>
+                                </div>
+                                <div class="form-group col-md-6">
+
+                                    <label for="pais">Pais Domicilio (*):</label>
+                                    <?php
+                                    $consultaProcesos = "SELECT * FROM paises ORDER BY nombre_pais";
+                                    $paises = $conexion->consultarDatos($consultaProcesos);
+                                    ?>
+                                    <select name="pais" class="form-control select2" id="pais" required>
+                                        <option disabled selected value="">Seleccione un Pais</option>
+                                        <?php foreach ($paises as $pais) : ?>
+                                            <option value="<?php echo ($pais['id_pais']) ?>">
+                                                <?php echo ($pais['nombre_pais']) ?></option>
+                                        <?php endforeach; ?>
+                                    </select>
+                                    <div class="invalid-feedback">Ingrese el Pais de Domicilio</div>
                                 </div>
                                 <div class="form-group col-md-4">
 
@@ -95,7 +112,7 @@ $usuario = $_SESSION['iduser'];
                                     <input type="number" id="nroDcto" name="nroDcto" class="form-control" style="color:darkgray" required autocomplete="off">
                                     <div class="invalid-feedback">Ingrese el número de documento</div>
                                 </div>
-                                <div class="form-group col-md-4">
+                                <!-- <div class="form-group col-md-4">
                                     <?php
                                     $consultaProcesos = "SELECT * FROM ciudades ORDER BY nombre_ciudad";
                                     $ciudades = $conexion->consultarDatos($consultaProcesos);
@@ -121,23 +138,7 @@ $usuario = $_SESSION['iduser'];
                                         <?php endforeach; ?>
                                     </select>
                                     <div class="invalid-feedback">Ingrese La ciudad de Expedición</div>
-                                </div>
-                                <div class="form-group col-md-4">
-
-                                    <label for="pais">Pais Domicilio (*):</label>
-                                    <?php
-                                    $consultaProcesos = "SELECT * FROM paises ORDER BY nombre_pais";
-                                    $paises = $conexion->consultarDatos($consultaProcesos);
-                                    ?>
-                                    <select name="pais" class="form-control select2" id="pais" required>
-                                        <option disabled selected value="">Seleccione un Pais</option>
-                                        <?php foreach ($paises as $pais) : ?>
-                                            <option value="<?php echo ($pais['id_pais']) ?>">
-                                                <?php echo ($pais['nombre_pais']) ?></option>
-                                        <?php endforeach; ?>
-                                    </select>
-                                    <div class="invalid-feedback">Ingrese el Pais de Domicilio</div>
-                                </div>
+                                </div> -->
                                 <div class="form-group col-md-4">
 
                                     <label for="celular">Celular (*):</label>
