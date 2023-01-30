@@ -166,7 +166,7 @@ $usuario = $_SESSION['iduser'];
 
                                         <label for="tipoCuenta">Tipo Cuenta (*):</label>
                                         <select name="tipoCuenta" class="form-control select2" id="tipoCuenta" required>
-                                            <?php if($banco = 'PayPal') { ?>
+                                            <?php if($banco = PayPal) { ?>
                                             <option disabled selected value="">Seleccione un banco</option>
                                             <option value="Ahorro">Internacional</option>
                                             <?php } else{ ?>
