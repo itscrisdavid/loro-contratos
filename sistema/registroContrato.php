@@ -95,22 +95,23 @@ $usuario = $_SESSION['iduser'];
                                     <input type="number" id="nroDcto" name="nroDcto" class="form-control" style="color:darkgray" required autocomplete="off">
                                     <div class="invalid-feedback">Ingrese el número de documento</div>
                                 </div>
+                                
                                 <div class="form-group col-md-4">
+
+                                    <label for="pais">Pais Domicilio (*):</label>
                                     <?php
-                                    $consultaProcesos = "SELECT * FROM ciudades ORDER BY nombre_ciudad";
-                                    $ciudades = $conexion->consultarDatos($consultaProcesos);
+                                    $consultaProcesos = "SELECT * FROM paises ORDER BY nombre_pais";
+                                    $paises = $conexion->consultarDatos($consultaProcesos);
                                     ?>
-                                    <label for="expedicion">Exp Documento (*):</label>
-                                    <select name="expedicion" class="form-control select2" id="expedicion" required>
-                                        <option disabled selected value="">Seleccione una Ciudad</option>
-                                        <?php foreach ($ciudades as $ciudad) : ?>
-                                            <option value="<?php echo ($ciudad['id_ciudad']) ?>">
-                                                <?php echo ($ciudad['nombre_ciudad']) ?></option>
+                                    <select name="pais" class="form-control select2" id="pais" required>
+                                        <option disabled selected value="">Seleccione un Pais</option>
+                                        <?php foreach ($paises as $pais) : ?>
+                                            <option value="<?php echo ($pais['id_pais']) ?>">
+                                                <?php echo ($pais['nombre_pais']) ?></option>
                                         <?php endforeach; ?>
                                     </select>
-                                    <div class="invalid-feedback">Ingrese La ciudad de Expedición</div>
+                                    <div class="invalid-feedback">Ingrese el Pais de Domicilio</div>
                                 </div>
-                                
                                 <div class="form-group col-md-4">
 
                                     <label for="celular">Celular (*):</label>
