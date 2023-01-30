@@ -59,8 +59,7 @@ $usuario = $_SESSION['iduser'];
                         <h2 class="mx-auto d-block mt-2 p-1 text-center">Creación de Nuevo Contrato</h2>
                         <form action="" id="formIngresoContrato" class="needs-validation mt-4 p-2 " method="POST" novalidate>
                             <div class="form-row">
-                                <div class="col-12">Información Bancaria</div>
-                                <div class="row border border-dark rounded col-12">
+                                <div class="col-12">Información Personal</div>
                                 <div class="form-group col-md-6">
 
                                     <label for="nombreCompleto">Nombre Completo (*):</label>
