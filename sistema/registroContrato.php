@@ -112,14 +112,13 @@ $usuario = $_SESSION['iduser'];
                                     <input type="number" id="nroDcto" name="nroDcto" class="form-control" style="color:darkgray" required autocomplete="off">
                                     <div class="invalid-feedback">Ingrese el número de documento</div>
                                 </div>
-
-                                <div class="form-group col-md-4">
+                                <!-- <div class="form-group col-md-4">
                                     <?php
                                     $consultaProcesos = "SELECT * FROM ciudades ORDER BY nombre_ciudad";
                                     $ciudades = $conexion->consultarDatos($consultaProcesos);
                                     ?>
                                     <label for="expedicion">Exp Documento (*):</label>
-                                    <select name="expedicion" class="form-control select2" id="expedicion">
+                                    <select name="expedicion" class="form-control select2" id="expedicion" required>
                                         <option disabled selected value="">Seleccione una Ciudad</option>
                                         <?php foreach ($ciudades as $ciudad) : ?>
                                             <option value="<?php echo ($ciudad['id_ciudad']) ?>">
@@ -131,7 +130,7 @@ $usuario = $_SESSION['iduser'];
                                 <div class="form-group col-md-4">
 
                                     <label for="domicilio">Ciudad Domicilio (*):</label>
-                                    <select name="domicilio" class="form-control select2" id="domicilio">
+                                    <select name="domicilio" class="form-control select2" id="domicilio" required>
                                         <option disabled selected value="">Seleccione una Ciudad</option>
                                         <?php foreach ($ciudades as $ciudad) : ?>
                                             <option value="<?php echo ($ciudad['id_ciudad']) ?>">
@@ -139,8 +138,7 @@ $usuario = $_SESSION['iduser'];
                                         <?php endforeach; ?>
                                     </select>
                                     <div class="invalid-feedback">Ingrese La ciudad de Expedición</div>
-                                </div>
-
+                                </div> -->
                                 <div class="form-group col-md-4">
 
                                     <label for="celular">Celular (*):</label>
