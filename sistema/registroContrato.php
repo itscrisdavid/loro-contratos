@@ -169,6 +169,7 @@ $usuario = $_SESSION['iduser'];
                                         <select name="tipoCuenta" class="form-control select2" id="tipoCuenta" required>
                                             <option disabled selected value="">Seleccione un banco</option>
                                             <option value="Ahorro">Ahorro</option>
+                                            <option value="Ahorro">Internacional</option>
                                             <option value="Corriente">Corriente</option>
 
                                         </select>
