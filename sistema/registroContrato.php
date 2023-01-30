@@ -182,7 +182,7 @@ $usuario = $_SESSION['iduser'];
                                     <div class="form-group col-md-4">
 
                                         <label for="numeroCuenta">Número de cuenta (*):</label>
-                                        <input type="number" id="numeroCuenta" name="numeroCuenta" class="form-control" style="color:darkgray" required autocomplete="off">
+                                        <input type="text" id="numeroCuenta" name="numeroCuenta" class="form-control" style="color:darkgray" required autocomplete="off">
                                         <div class="invalid-feedback">Ingrese documento del artista</div>
                                     </div>
                                 </div>
