@@ -144,7 +144,8 @@ $usuario = $_SESSION['iduser'];
                                     <label for="celular">Celular (*):</label>
                                     <input type="number" id="celular" name="celular" class="form-control" style="color:darkgray" required autocomplete="off">
                                     <div class="invalid-feedback">Ingrese nro Celular</div>
-                                </div></div>
+                                </div>
+                                </div>
                                 <div class="col-12">Información Bancaria</div>
                                 <div class="row border border-dark rounded col-12">
                                     <div class="form-group col-md-4">
@@ -166,15 +167,10 @@ $usuario = $_SESSION['iduser'];
 
                                         <label for="tipoCuenta">Tipo Cuenta (*):</label>
                                         <select name="tipoCuenta" class="form-control select2" id="tipoCuenta" required>
-                                            <?php if($nombre_banco = 'PayPal') { ?>
-                                            <option disabled selected value="">Seleccione un banco</option>
-                                            <option value="Ahorro">Internacional</option>
-                                            <?php } else{ ?>
                                             <option disabled selected value="">Seleccione un banco</option>
                                             <option value="Ahorro">Ahorro</option>
                                             <option value="Ahorro">Internacional</option>
                                             <option value="Corriente">Corriente</option>
-                                            <?php } ?>
 
                                         </select>
                                         <div class="invalid-feedback">Ingrese el Tipo de Cuenta</div>
