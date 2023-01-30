@@ -8,8 +8,6 @@ $nombreArtistico = $_POST['nombreArtistico'];
 $email = $_POST['email'];
 $tipoDcto = $_POST['tipoDcto'];
 $nroDcto = $_POST['nroDcto'];
-$expedicion = $_POST['expedicion'];
-$domicilio = $_POST['domicilio'];
 $banco = $_POST['banco'];
 $tipoCuenta = $_POST['tipoCuenta'];
 $numeroCuenta = $_POST['numeroCuenta'];
@@ -19,10 +17,10 @@ $carateresPermitidos = '0123456789abcdefghijklmnopqrstuvwxyz';
 $aleatorio = substr(str_shuffle($carateresPermitidos), 0, 10);
 
 $consultaSQL = "INSERT INTO contratos (nombre_completo, nombre_artista, email, 
-                tipo_documento,  nro_documento, id_banco, tipo_cuenta, 
-                numero_cuenta, celular, id_aleatorio, id_pais) 
+                tipo_documento,  nro_documento,
+                id_banco,tipo_cuenta, numero_cuenta, celular, id_aleatorio, id_pais) 
                 values ('$nombreCompleto' , '$nombreArtistico', '$email', '$tipoDcto', '$nroDcto', 
-                '$banco', '$tipoCuenta', '$numeroCuenta', '$celular', '$aleatorio', '$pais' )";
+                $banco, '$tipoCuenta', $numeroCuenta, '$celular', '$aleatorio', '$pais' )";
 
 
 $insert = $conexion->agregarDatos($consultaSQL);
