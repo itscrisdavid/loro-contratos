@@ -60,6 +60,7 @@ $usuario = $_SESSION['iduser'];
                         <form action="" id="formIngresoContrato" class="needs-validation mt-4 p-2 " method="POST" novalidate>
                             <div class="form-row">
                                 <div class="col-12">Información Personal</div>
+                                <div class="row border border-dark rounded col-12">
                                 <div class="form-group col-md-6">
 
                                     <label for="nombreCompleto">Nombre Completo (*):</label>
