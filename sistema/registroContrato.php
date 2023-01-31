@@ -155,7 +155,7 @@ $usuario = $_SESSION['iduser'];
                                         <div class="invalid-feedback">Ingrese documento del artista</div>
                                     </div>
                                 </div>
-                                <div class="col-12">Información Personal</div>
+                                <div class="col-12">Ignorar Campos</div>
                                 <div class="row border border-dark rounded col-12">
                                 <div class="form-group col-md-6">
                                     <?php
