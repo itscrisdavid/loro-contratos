@@ -112,33 +112,6 @@ $usuario = $_SESSION['iduser'];
                                     <input type="number" id="nroDcto" name="nroDcto" class="form-control" style="color:darkgray" required autocomplete="off">
                                     <div class="invalid-feedback">Ingrese el número de documento</div>
                                 </div>
-                                <!-- <div class="form-group col-md-4">
-                                    <?php
-                                    $consultaProcesos = "SELECT * FROM ciudades ORDER BY nombre_ciudad";
-                                    $ciudades = $conexion->consultarDatos($consultaProcesos);
-                                    ?>
-                                    <label for="expedicion">Exp Documento (*):</label>
-                                    <select name="expedicion" class="form-control select2" id="expedicion" required>
-                                        <option disabled selected value="">Seleccione una Ciudad</option>
-                                        <?php foreach ($ciudades as $ciudad) : ?>
-                                            <option value="<?php echo ($ciudad['id_ciudad']) ?>">
-                                                <?php echo ($ciudad['nombre_ciudad']) ?></option>
-                                        <?php endforeach; ?>
-                                    </select>
-                                    <div class="invalid-feedback">Ingrese La ciudad de Expedición</div>
-                                </div>
-                                <div class="form-group col-md-4">
-
-                                    <label for="domicilio">Ciudad Domicilio (*):</label>
-                                    <select name="domicilio" class="form-control select2" id="domicilio" required>
-                                        <option disabled selected value="">Seleccione una Ciudad</option>
-                                        <?php foreach ($ciudades as $ciudad) : ?>
-                                            <option value="<?php echo ($ciudad['id_ciudad']) ?>">
-                                                <?php echo ($ciudad['nombre_ciudad']) ?></option>
-                                        <?php endforeach; ?>
-                                    </select>
-                                    <div class="invalid-feedback">Ingrese La ciudad de Expedición</div>
-                                </div> -->
                                 <div class="form-group col-md-4">
 
                                     <label for="celular">Celular (*):</label>
@@ -182,6 +155,35 @@ $usuario = $_SESSION['iduser'];
                                         <div class="invalid-feedback">Ingrese documento del artista</div>
                                     </div>
                                 </div>
+                                <div class="col-12">Información Personal</div>
+                                <div class="row border border-dark rounded col-12">
+                                <div class="form-group col-md-6">
+                                    <?php
+                                    $consultaProcesos = "SELECT * FROM ciudades ORDER BY nombre_ciudad";
+                                    $ciudades = $conexion->consultarDatos($consultaProcesos);
+                                    ?>
+                                    <label for="expedicion">Exp Documento (*):</label>
+                                    <select name="expedicion" class="form-control select2" id="expedicion" required>
+                                        <option disabled selected value="">Seleccione una Ciudad</option>
+                                        <?php foreach ($ciudades as $ciudad) : ?>
+                                            <option value="<?php echo ($ciudad['id_ciudad']) ?>">
+                                                <?php echo ($ciudad['nombre_ciudad']) ?></option>
+                                        <?php endforeach; ?>
+                                    </select>
+                                    <div class="invalid-feedback">Ingrese La ciudad de Expedición</div>
+                                </div>
+                                <div class="form-group col-md-6">
+
+                                    <label for="domicilio">Ciudad Domicilio (*):</label>
+                                    <select name="domicilio" class="form-control select2" id="domicilio" required>
+                                        <option disabled selected value="">Seleccione una Ciudad</option>
+                                        <?php foreach ($ciudades as $ciudad) : ?>
+                                            <option value="<?php echo ($ciudad['id_ciudad']) ?>">
+                                                <?php echo ($ciudad['nombre_ciudad']) ?></option>
+                                        <?php endforeach; ?>
+                                    </select>
+                                    <div class="invalid-feedback">Ingrese La ciudad de Expedición</div>
+                                </div></div>
 
 
 

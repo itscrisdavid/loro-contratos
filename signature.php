@@ -8,9 +8,12 @@ $conexion = new Conexion();
 $id = $_GET['id'];
 
 // echo $id;
-$consultaSQL = "SELECT co.nombre_completo, co.log_termino,  co.tipo_documento, co.nro_documento, ba.nombre_banco, co.nombre_artista  , co.tipo_cuenta, co.numero_cuenta, us.firma_usuario
+$consultaSQL = "SELECT co.nombre_completo, co.log_termino,  co.tipo_documento, co.nro_documento, ex.nombre_ciudad expedicion, 
+ed.nombre_ciudad domicilio, ba.nombre_banco, co.nombre_artista  , co.tipo_cuenta, co.numero_cuenta, us.firma_usuario
 
 FROM contratos co
+INNER JOIN ciudades ex ON ex.id_ciudad=co.expedicion_documento 
+INNER JOIN ciudades ed ON ed.id_ciudad=co.ciudad_domicilio 
 INNER JOIN bancos ba ON ba.id_banco=co.id_banco 
 inner JOIN usuario us ON us.id_usuario=1
 WHERE co.id_contrato=$id";
@@ -27,6 +30,8 @@ if ($firmado) {
   $nombreCompleto = $resultado[0]['nombre_completo'];
   $tipoDcto = $resultado[0]['tipo_documento'];
   $nroDcto = $resultado[0]['nro_documento'];
+  $expedicion = $resultado[0]['expedicion'];
+  $domicilio = $resultado[0]['domicilio'];
   $banco = $resultado[0]['nombre_banco'];
   $nombreArtistico = $resultado[0]['nombre_artista'];
   $tipoCuenta = $resultado[0]['tipo_cuenta'];
